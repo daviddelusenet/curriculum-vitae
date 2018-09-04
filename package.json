@@ -4,7 +4,13 @@
   "description": "Curriculum vitae of David de Lusenet",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build:dev",
+    "build:dev": "BABEL_ENV=dev webpack-dev-server --hot --config config/webpack.dev.js --mode development",
+    "build:prod": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production",
+    "dist": "npm run build:prod",
+    "dist:analyze": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production --env.analyze=true",
+    "lint:css": "stylelint './src/**/*.js' --config config/.stylelintrc.js",
+    "lint:js": "eslint './src/**/*.js' --config config/.eslintrc.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +30,30 @@
   },
   "homepage": "https://github.com/daviddelusenet/curriculum-vitae#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.6",
     "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-styled-components": "^1.6.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^1.1.12",
+    "copy-webpack-plugin": "^4.5.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.17.2",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.1.4"
   }
 }
