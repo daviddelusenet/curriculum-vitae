@@ -1,3 +1,4 @@
+/* eslint sort-keys: 0 */
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');

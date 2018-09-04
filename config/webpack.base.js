@@ -1,3 +1,4 @@
+/* eslint sort-keys: 0 */
 const { resolve } = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');

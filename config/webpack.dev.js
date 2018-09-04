@@ -1,3 +1,4 @@
+/* eslint sort-keys: 0 */
 const webpack = require('webpack');
 const { resolve } = require('path');
 const merge = require('webpack-merge');
