@@ -2,7 +2,7 @@ import { injectGlobal } from 'styled-components';
 import reset from 'styled-reset';
 
 // Consts
-import { BLACK, WHITE } from '../../utils/consts';
+import { ALABASTER, BLACK, OPEN_SANS } from '../../utils/consts';
 
 export default () => injectGlobal`
   ${reset}
@@ -12,12 +12,22 @@ export default () => injectGlobal`
   }
   
   html {
-    background-color: ${BLACK};
-    color: ${WHITE};
+    background-color: ${ALABASTER};
+    color: ${BLACK};
   }
   
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: ${OPEN_SANS};
+  }
+  
+  a {
+    text-decoration: none;
+    color: ${BLACK};
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
