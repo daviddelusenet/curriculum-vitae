@@ -2,6 +2,7 @@
 const webpack = require('webpack');
 const { resolve } = require('path');
 const merge = require('webpack-merge');
+const Jarvis = require('webpack-jarvis');
 const baseConfig = require('./webpack.base');
 
 module.exports = () => (
@@ -16,6 +17,9 @@ module.exports = () => (
     },
     plugins: [
       new webpack.NamedModulesPlugin(),
+      new Jarvis({
+        port: 1337,
+      }),
     ],
   })
 );
