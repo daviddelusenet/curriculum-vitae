@@ -25,9 +25,5 @@ export default () => injectGlobal`
   a {
     text-decoration: none;
     color: ${BLACK};
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 `;
