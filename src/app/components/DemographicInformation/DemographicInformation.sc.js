@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { SOURCE_SERIF_PRO } from '../../../utils/consts';
 
 export const Wrapper = styled.div`
-  padding: 80px 0 40px;
+  padding: 80px 0 64px;
 `;
 
 export const Name = styled.h1`

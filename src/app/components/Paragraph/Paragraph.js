@@ -23,7 +23,10 @@ const Paragraph = ({ children }) => (
 );
 
 Paragraph.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.string,
+  ]).isRequired,
 };
 
 export default Paragraph;
