@@ -59,6 +59,4 @@ module.exports = {
       natural: false,
     }],
   },
-  globals: {
-  }
 };
