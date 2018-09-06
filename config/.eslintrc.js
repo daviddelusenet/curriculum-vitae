@@ -47,6 +47,7 @@ module.exports = {
       shorthandFirst: false,
       shorthandLast: false,
     }],
+    'react/no-danger': 0,
     'react/sort-prop-types': ['error', {
       callbacksLast: false,
       ignoreCase: false,
