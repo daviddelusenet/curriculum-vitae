@@ -15,7 +15,7 @@ const WorkingExperience = () => (
     </Paragraph>
     <Paragraph>
       At Random we&apos;re primarily doing projects for high fashion brands but we&apos;re in the process of exploring
-      other fields where we might could be of value. Random has a really including culture which makes it a lot of fun
+      other fields where we could be of value. Random has a really including culture which makes it a lot of fun
       to work there.
     </Paragraph>
     <Subtitle date="July 2016 - January 2018">front-end developer at Momkai</Subtitle>
@@ -41,8 +41,8 @@ const WorkingExperience = () => (
     </Paragraph>
     <Subtitle date="2008 - 2010">technical support at the University of Applied Sciences Amsterdam</Subtitle>
     <Paragraph>
-      My job here was to help students with any technical difficulties they faced.
-      This could vary from helping with Final Cut Pro to helping with Photoshop.
+      My job here was to help students and teachers with any technical difficulties they faced. This could vary from
+      setting up new computers to helping out with Photoshop or Final Cut Pro.
     </Paragraph>
   </React.Fragment>
 );
