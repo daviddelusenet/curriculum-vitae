@@ -7,6 +7,20 @@ const baseConfig = require('./webpack.base');
 
 module.exports = (env = {}) => (
   merge(baseConfig(), {
+    output: {
+      filename: '[name].[chunkhash].min.js',
+    },
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          commons: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            chunks: 'all',
+          },
+        },
+      },
+    },
     devtool: 'source-map',
     plugins: [
       new BundleAnalyzerPlugin({
