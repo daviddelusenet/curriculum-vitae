@@ -33,12 +33,12 @@ export default ({
   background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),
     linear-gradient(${backgroundColor}, ${backgroundColor}),
     linear-gradient(${color}, ${color});
-  background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 0 90%, 100% 90%, 0 ${underlinePosition};
+  background-repeat: no-repeat, no-repeat, no-repeat;
   
   ${animate ? (css`
-    background-size: .05em 1px, .05em 1px, 0 1px;
     transition: background .7s cubic-bezier(.250, .460, .450, .940);
+    background-size: .05em 1px, .05em 1px, 0 1px;
   `) : (css`
     background-size: .05em 1px, .05em 1px, 100% 1px;
   `)};

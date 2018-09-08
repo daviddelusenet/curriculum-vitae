@@ -1,29 +1,44 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import media from 'styled-media-query';
 import underline from '../../styles/mixins/underline';
 import { BLACK } from '../../../utils/consts';
 
 const StyledList = styled.ul`
-  margin: 0 0 40px;
+  margin: 0 0 24px;
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 300;
   
+  ${media.greaterThan('medium')`
+    margin: 0 0 40px;
+    font-size: 24px;
+  `};
+
   li {
     position: relative;
-    padding: 0 0 0 24px;
+    padding: 0 0 0 16px;
+    
+    ${media.greaterThan('medium')`
+      padding: 0 0 0 24px;
+    `};
     
     &:after,
     &:before {
       display: block;
       position: absolute;
-      top: 18px;
+      top: 12px;
       left: 0;
-      width: 12px;
+      background-color: ${BLACK};
+      width: 8px;
       height: 1px;
       content: '';
-      background-color: ${BLACK};
+
+      ${media.greaterThan('medium')`
+        top: 18px;
+        width: 12px;
+      `};
     }
     
     &:after {
