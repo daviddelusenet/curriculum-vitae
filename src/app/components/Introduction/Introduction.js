@@ -4,9 +4,9 @@ import React from 'react';
 import Title from '../Title/Title';
 import Paragraph from '../Paragraph/Paragraph';
 
-const PersonalInformation = () => (
+const Introduction = () => (
   <React.Fragment>
-    <Title>Personal information</Title>
+    <Title>Introduction</Title>
     <Paragraph>
       Since a young age I was always interested in technology.
       However, I didn&apos;t start coding until about 2010, when I started with my education
@@ -14,7 +14,7 @@ const PersonalInformation = () => (
     </Paragraph>
     <Paragraph>
       During my first job, at a company called Atabix Solutions, I learned a lot of my basic development skills.
-      At that time, Atabix was still an up and coming agency. This gave me the opportunity to have a lot of
+      At that time, Atabix was still an up and coming agency. They gave me the opportunity to have a lot of
       responsibility within the company and to kickstart my personal career.
     </Paragraph>
     <Paragraph>
@@ -43,4 +43,4 @@ const PersonalInformation = () => (
   </React.Fragment>
 );
 
-export default PersonalInformation;
+export default Introduction;
