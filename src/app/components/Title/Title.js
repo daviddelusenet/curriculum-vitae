@@ -9,7 +9,7 @@ const StyledTitle = styled.h3`
   ${underline({ underlinePosition: '92%' })};
   margin: 0 0 16px;
   font-family: ${SOURCE_SERIF_PRO};
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   
   ${media.greaterThan('medium')`
