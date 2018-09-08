@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import DemographicInformation from './components/DemographicInformation/DemographicInformation';
 import PersonalInformation from './components/PersonalInformation/PersonalInformation';
 import WorkingExperience from './components/WorkingExperience/WorkingExperience';
+import WorkOverview from './components/WorkOverview/WorkOverview';
 
 const Wrapper = styled.div`
     max-width: 760px;
@@ -18,6 +19,7 @@ const App = () => (
     <DemographicInformation />
     <PersonalInformation />
     <WorkingExperience />
+    <WorkOverview />
   </Wrapper>
 );
 
