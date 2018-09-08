@@ -25,11 +25,11 @@ const PersonalInformation = () => (
     <Paragraph>
       At Momkai I started taking serious steps towards becoming an experienced developer. I (finally) stopped working
       with tools like jQuery and started doing projects with React. After two fun years where I learned a lot I decided
-      I needed something new. I applied for front-end developer positions at various companies and ended up working at
-      Random Studio.
+      I was ready for something new. So I started applying for front-end developer positions at various creative
+      agencies and ended up at Random Studio.
     </Paragraph>
     <Paragraph>
-      Until this very day I&apos;m still happily doing cool projects at Random.
+      Until this very day I&apos;m still happily doing exciting projects at Random.
       {' '}
       <a
         href="https://random.studio/"
