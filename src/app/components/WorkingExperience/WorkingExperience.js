@@ -15,7 +15,7 @@ const WorkingExperience = () => (
     </Paragraph>
     <Paragraph>
       At Random we&apos;re primarily doing projects for high fashion brands but we&apos;re in the process of exploring
-      other fields where we could be of value. Random has a really including culture which makes it a lot of fun
+      other fields where we could be of value. Random has a real culture of participation which makes it a lot of fun
       to work there.
     </Paragraph>
     <Subtitle date="July 2016 - January 2018">front-end developer at Momkai</Subtitle>
