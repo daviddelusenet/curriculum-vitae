@@ -3,7 +3,7 @@ import { css } from 'styled-components';
 import { ALABASTER, BLACK } from '../../../utils/consts';
 
 export const textShadowToCropUnderline = ({ backgroundColor = ALABASTER } = {}) => (css`
-    text-shadow: 0 .03em ${backgroundColor},
+  text-shadow: 0 .03em ${backgroundColor},
     0 -.03em ${backgroundColor},
     .03em 0 ${backgroundColor},
     -.03em 0 ${backgroundColor},
@@ -31,8 +31,8 @@ export default ({
 } = {}) => (css`
   ${textShadowToCropUnderline({ backgroundColor })};
   background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),
-  linear-gradient(${backgroundColor}, ${backgroundColor}),
-  linear-gradient(${color}, ${color});
+    linear-gradient(${backgroundColor}, ${backgroundColor}),
+    linear-gradient(${color}, ${color});
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 0 90%, 100% 90%, 0 ${underlinePosition};
   

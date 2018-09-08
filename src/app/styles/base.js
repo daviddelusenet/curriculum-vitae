@@ -17,9 +17,9 @@ export default () => injectGlobal`
   }
   
   body {
+    font-family: ${OPEN_SANS};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: ${OPEN_SANS};
   }
   
   a {
