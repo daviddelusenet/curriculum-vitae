@@ -10,11 +10,11 @@ const DevelopmentSkills = () => (
     <Title>Development skills</Title>
     <List listItems={[
       'HTML5',
-      'CSS3/SASS',
+      'CSS3/SASS/React CSS Modules',
       'JavaScript ES6',
       'React',
       'Redux',
-      'Styled Components/React CSS Modules',
+      'Styled Components',
       'GSAP',
       'Webpack',
       'Git',
