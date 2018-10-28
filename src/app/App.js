@@ -2,6 +2,9 @@ import React from 'react';
 import { hot } from 'react-hot-loader';
 import styled from 'styled-components';
 
+// Styles
+import GlobalStyle from './styles/base';
+
 // Child components
 import DemographicInformation from './components/DemographicInformation/DemographicInformation';
 import DevelopmentSkills from './components/DevelopmentSkills/DevelopmentSkills';
@@ -18,6 +21,7 @@ const Wrapper = styled.div`
 
 const App = () => (
   <Wrapper>
+    <GlobalStyle />
     <DemographicInformation />
     <Introduction />
     <WorkingExperience />
