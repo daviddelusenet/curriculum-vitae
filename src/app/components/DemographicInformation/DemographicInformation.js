@@ -11,11 +11,8 @@ import {
     Occupation,
     Wrapper,
 } from './DemographicInformation.sc';
-import GithubSVG from '../../../svg/github.svg';
-import LinkedInSVG from '../../../svg/linkedin.svg';
-import MailSVG from '../../../svg/mail.svg';
-import PhoneSVG from '../../../svg/phone.svg';
 import React from 'react';
+import ReactSVG from 'react-svg';
 
 const DemographicInformation = () => (
     <Wrapper>
@@ -58,7 +55,7 @@ const DemographicInformation = () => (
                         target="_blank"
                         title="Check out my code"
                     >
-                        <GithubSVG />
+                        <ReactSVG src="/assets/images/github.svg" />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/david-de-lusenet-31b838111/"
@@ -66,13 +63,13 @@ const DemographicInformation = () => (
                         target="_blank"
                         title="Connect with me"
                     >
-                        <LinkedInSVG />
+                        <ReactSVG src="/assets/images/linkedin.svg" />
                     </a>
                     <a href="mailto:david@lusenet.nl" title="Send me an email to say hi">
-                        <MailSVG />
+                        <ReactSVG src="/assets/images/mail.svg" />
                     </a>
                     <a href="tel:+31650469600" title="You used to call me on my cellphone">
-                        <PhoneSVG />
+                        <ReactSVG src="/assets/images/phone.svg" />
                     </a>
                 </Icons>
             </InformationWrapper>

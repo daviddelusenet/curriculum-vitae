@@ -19,17 +19,6 @@ module.exports = () => ({
                 test: /\.js$/,
                 use: ['babel-loader'],
             },
-            {
-                test: /\.svg$/,
-                use: ['babel-loader',
-                    {
-                        loader: 'react-svg-loader',
-                        options: {
-                            jsx: true,
-                        },
-                    },
-                ],
-            },
         ],
     },
     output: {
