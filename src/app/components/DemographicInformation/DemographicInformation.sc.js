@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import media from 'styled-media-query';
 import { SOURCE_SERIF_PRO } from '../../../utils/consts';
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 80px 0 64px;
@@ -10,7 +10,7 @@ export const Name = styled.h1`
   font-family: ${SOURCE_SERIF_PRO};
   font-size: 40px;
   font-weight: bold;
-  
+
   ${media.greaterThan('medium')`
     font-size: 64px;
   `};
@@ -19,7 +19,7 @@ export const Name = styled.h1`
 export const Occupation = styled.h2`
   margin: 0 0 24px;
   font-size: 20px;
-  
+
   ${media.greaterThan('medium')`
     font-size: 32px;
   `};
@@ -65,19 +65,19 @@ export const Icons = styled.div`
   display: flex;
   flex-wrap: nowrap;
   margin: 24px 0 0;
-  
+
   a {
     display: block;
     flex: 0 0 auto;
     margin: 0 16px 0 0;
     width: 32px;
     height: 32px;
-    
+
     &:last-of-type {
       margin: 0;
     }
   }
-  
+
   svg {
     width: 32px;
     height: 32px;
@@ -89,7 +89,7 @@ export const AvatarWrapper = styled.figure`
   order: 1;
   margin: 0 0 16px;
   width: 200px;
-  
+
   ${media.greaterThan('medium')`
     order: 2;
     margin: 0;

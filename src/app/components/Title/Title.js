@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import media from 'styled-media-query';
+import PropTypes from 'prop-types';
+import React from 'react';
 import { SOURCE_SERIF_PRO } from '../../../utils/consts';
+import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
 const StyledTitle = styled.h3`
@@ -11,7 +11,7 @@ const StyledTitle = styled.h3`
   font-family: ${SOURCE_SERIF_PRO};
   font-size: 28px;
   font-weight: bold;
-  
+
   ${media.greaterThan('medium')`
     font-size: 40px;
   `};

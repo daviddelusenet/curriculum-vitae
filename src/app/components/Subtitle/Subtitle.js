@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import media from 'styled-media-query';
+import PropTypes from 'prop-types';
+import React from 'react';
+import styled from 'styled-components';
 
 const StyledSubtitle = styled.h4`
   margin: 0 0 8px;
@@ -9,7 +9,7 @@ const StyledSubtitle = styled.h4`
   font-size: 12px;
   font-weight: 300;
   font-style: italic;
-  
+
   ${media.greaterThan('medium')`
     font-size: 16px;
   `};

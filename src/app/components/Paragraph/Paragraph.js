@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import media from 'styled-media-query';
+import PropTypes from 'prop-types';
+import React from 'react';
+import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
 const StyledParagraph = styled.p`
@@ -9,12 +9,12 @@ const StyledParagraph = styled.p`
   line-height: 1.5;
   font-size: 16px;
   font-weight: 300;
-  
+
   ${media.greaterThan('medium')`
     margin: 0 0 40px;
     font-size: 24px;
   `};
-  
+
   a {
     &:hover {
       ${underline()};

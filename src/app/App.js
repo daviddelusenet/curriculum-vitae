@@ -1,15 +1,11 @@
-import React from 'react';
-import { hot } from 'react-hot-loader';
-import styled from 'styled-components';
-
-// Styles
-import GlobalStyle from './styles/base';
-
-// Child components
 import DemographicInformation from './components/DemographicInformation/DemographicInformation';
 import DevelopmentSkills from './components/DevelopmentSkills/DevelopmentSkills';
+import GlobalStyle from './styles/base';
+import { hot } from 'react-hot-loader';
 import Introduction from './components/Introduction/Introduction';
 import PersonalInterests from './components/PersonalInterests/PersonalInterests';
+import React from 'react';
+import styled from 'styled-components';
 import WorkingExperience from './components/WorkingExperience/WorkingExperience';
 import WorkOverview from './components/WorkOverview/WorkOverview';
 

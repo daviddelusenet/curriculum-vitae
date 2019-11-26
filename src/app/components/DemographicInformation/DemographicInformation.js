@@ -1,12 +1,3 @@
-import React from 'react';
-
-// SVGs
-import GithubSVG from '../../../svg/github.svg';
-import LinkedInSVG from '../../../svg/linkedin.svg';
-import MailSVG from '../../../svg/mail.svg';
-import PhoneSVG from '../../../svg/phone.svg';
-
-// Styled components
 import {
     Avatar,
     AvatarWrapper,
@@ -20,24 +11,45 @@ import {
     Occupation,
     Wrapper,
 } from './DemographicInformation.sc';
+import GithubSVG from '../../../svg/github.svg';
+import LinkedInSVG from '../../../svg/linkedin.svg';
+import MailSVG from '../../../svg/mail.svg';
+import PhoneSVG from '../../../svg/phone.svg';
+import React from 'react';
 
 const DemographicInformation = () => (
     <Wrapper>
-        <Name>David de Lusenet</Name>
-        <Occupation>Front-end developer</Occupation>
+        <Name>
+            {'David de Lusenet'}
+        </Name>
+        <Occupation>
+            {'Front-end developer'}
+        </Occupation>
         <Inner>
             <InformationWrapper>
                 <InformationRow>
-                    <InformationKey>Date of birth</InformationKey>
-                    <InformationValue>June 24, 1992</InformationValue>
+                    <InformationKey>
+                        {'Date of birth'}
+                    </InformationKey>
+                    <InformationValue>
+                        {'June 24, 1992'}
+                    </InformationValue>
                 </InformationRow>
                 <InformationRow>
-                    <InformationKey>Nationality</InformationKey>
-                    <InformationValue>Dutch</InformationValue>
+                    <InformationKey>
+                        {'Nationality'}
+                    </InformationKey>
+                    <InformationValue>
+                        {'Dutch'}
+                    </InformationValue>
                 </InformationRow>
                 <InformationRow>
-                    <InformationKey>Current home town</InformationKey>
-                    <InformationValue>Amsterdam</InformationValue>
+                    <InformationKey>
+                        {'Current home town'}
+                    </InformationKey>
+                    <InformationValue>
+                        {'Amsterdam'}
+                    </InformationValue>
                 </InformationRow>
                 <Icons>
                     <a
