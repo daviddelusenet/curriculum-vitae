@@ -6,20 +6,20 @@ const Jarvis = require('webpack-jarvis');
 const baseConfig = require('./webpack.base');
 
 module.exports = () => (
-  merge(baseConfig(), {
-    devtool: 'inline-source-map',
-    devServer: {
-      contentBase: resolve(__dirname, '../dist'),
-      historyApiFallback: true,
-      hot: true,
-      open: true,
-      publicPath: '/',
-    },
-    plugins: [
-      new webpack.NamedModulesPlugin(),
-      new Jarvis({
-        port: 1337,
-      }),
-    ],
-  })
+    merge(baseConfig(), {
+        devtool: 'inline-source-map',
+        devServer: {
+            contentBase: resolve(__dirname, '../dist'),
+            historyApiFallback: true,
+            hot: true,
+            open: true,
+            publicPath: '/',
+        },
+        plugins: [
+            new webpack.NamedModulesPlugin(),
+            new Jarvis({
+                port: 1337,
+            }),
+        ],
+    })
 );

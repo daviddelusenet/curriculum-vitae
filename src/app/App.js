@@ -14,21 +14,21 @@ import WorkingExperience from './components/WorkingExperience/WorkingExperience'
 import WorkOverview from './components/WorkOverview/WorkOverview';
 
 const Wrapper = styled.div`
-  margin: 0 auto;
-  padding: 0 30px 100px;
-  max-width: 760px;
+    margin: 0 auto;
+    padding: 0 30px 100px;
+    max-width: 760px;
 `;
 
 const App = () => (
-  <Wrapper>
-    <GlobalStyle />
-    <DemographicInformation />
-    <Introduction />
-    <WorkingExperience />
-    <WorkOverview />
-    <DevelopmentSkills />
-    <PersonalInterests />
-  </Wrapper>
+    <Wrapper>
+        <GlobalStyle />
+        <DemographicInformation />
+        <Introduction />
+        <WorkingExperience />
+        <WorkOverview />
+        <DevelopmentSkills />
+        <PersonalInterests />
+    </Wrapper>
 );
 
 export default hot(module)(App);

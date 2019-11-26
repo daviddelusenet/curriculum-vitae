@@ -23,16 +23,16 @@ const StyledParagraph = styled.p`
 `;
 
 const Paragraph = ({ children }) => (
-  <StyledParagraph>
-    {children}
-  </StyledParagraph>
+    <StyledParagraph>
+        {children}
+    </StyledParagraph>
 );
 
 Paragraph.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.array,
-    PropTypes.string,
-  ]).isRequired,
+    children: PropTypes.oneOfType([
+        PropTypes.array,
+        PropTypes.string,
+    ]).isRequired,
 };
 
 export default Paragraph;

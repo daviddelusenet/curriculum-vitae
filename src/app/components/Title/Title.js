@@ -18,13 +18,13 @@ const StyledTitle = styled.h3`
 `;
 
 const Title = ({ children }) => (
-  <StyledTitle>
-    {children}
-  </StyledTitle>
+    <StyledTitle>
+        {children}
+    </StyledTitle>
 );
 
 Title.propTypes = {
-  children: PropTypes.string.isRequired,
+    children: PropTypes.string.isRequired,
 };
 
 export default Title;

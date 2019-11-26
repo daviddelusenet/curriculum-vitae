@@ -24,10 +24,10 @@ export const animateUnderline = () => (css`
 `);
 
 export default ({
-  animate = false,
-  backgroundColor = ALABASTER,
-  color = BLACK,
-  underlinePosition = '88%',
+    animate = false,
+    backgroundColor = ALABASTER,
+    color = BLACK,
+    underlinePosition = '88%',
 } = {}) => (css`
   ${textShadowToCropUnderline({ backgroundColor })};
   background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),

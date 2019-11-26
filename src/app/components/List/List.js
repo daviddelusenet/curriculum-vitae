@@ -58,15 +58,15 @@ const StyledList = styled.ul`
 `;
 
 const List = ({ listItems }) => (
-  <StyledList>
-    {listItems.map(listItem => (
-      <li dangerouslySetInnerHTML={{ __html: listItem }} key={listItem} />
-    ))}
-  </StyledList>
+    <StyledList>
+        {listItems.map((listItem) => (
+            <li dangerouslySetInnerHTML={{ __html: listItem }} key={listItem} />
+        ))}
+    </StyledList>
 );
 
 List.propTypes = {
-  listItems: PropTypes.arrayOf(PropTypes.string).isRequired,
+    listItems: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default List;
