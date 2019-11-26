@@ -16,7 +16,7 @@ const WorkingExperience = () => (
             design studio which blurs the boundaries between art, design and technology.`}
         </Paragraph>
         <Paragraph>
-            {`At Random we&apos;re primarily doing projects for high fashion brands but we&apos;re in the process of
+            {`At Random we're primarily doing projects for high fashion brands but we're in the process of
             exploring other fields where we could be of value. Random has a real culture of participation which makes
             it a lot of fun to work there.`}
         </Paragraph>

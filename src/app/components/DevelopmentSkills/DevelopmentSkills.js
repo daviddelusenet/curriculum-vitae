@@ -21,7 +21,7 @@ const DevelopmentSkills = () => (
         ]}
         />
         <Paragraph>
-            {'Tools I&apos;ve worked with in the past:'}
+            {'Tools I\'ve worked with in the past:'}
         </Paragraph>
         <List listItems={[
             'Backbone.js',

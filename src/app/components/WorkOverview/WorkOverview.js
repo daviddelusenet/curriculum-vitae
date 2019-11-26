@@ -23,7 +23,7 @@ const WorkOverview = () => (
         />
         <Paragraph>
             {`I also build the entire video wall part of the Digital Showroom which is used by Tommy Hilfiger. Since
-            this isn&apos;t an online application I can&apos;t place a link to that project here. However, you can
+            this isn't an online application I can't place a link to that project here. However, you can
             watch `}
             <a href="https://www.youtube.com/watch?v=tQ1VpM7pjsA" rel="noopener noreferrer" target="_blank">
                 {'this interesting video'}

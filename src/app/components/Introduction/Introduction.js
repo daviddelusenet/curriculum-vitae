@@ -9,7 +9,7 @@ const Introduction = () => (
         </Title>
         <Paragraph>
             {`Since a young age I was always interested in technology.
-            However, I didn&apos;t start coding until about 2010, when I started with my education
+            However, I didn't start coding until about 2010, when I started with my education
             Communication and Multimedia Design at the University of Applied Sciences Amsterdam.`}
         </Paragraph>
         <Paragraph>
@@ -29,7 +29,7 @@ const Introduction = () => (
             various creative agencies and ended up at Random Studio.`}
         </Paragraph>
         <Paragraph>
-            {'Until this very day I&apos;m still happily doing exciting projects at Random.'}
+            {'Until this very day I\'m still happily doing exciting projects at Random.'}
             <a
                 href="https://random.studio/"
                 rel="noopener noreferrer"
