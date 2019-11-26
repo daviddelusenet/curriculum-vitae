@@ -4,21 +4,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledSubtitle = styled.h4`
-  margin: 0 0 8px;
-  line-height: 1.5;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: italic;
+    margin: 0 0 8px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
 
-  ${media.greaterThan('medium')`
-    font-size: 16px;
-  `};
+    span {
+        display: block;
+        font-weight: 700;
+        font-style: normal;
+    }
 
-  span {
-    display: block;
-    font-weight: 700;
-    font-style: normal;
-  }
+    ${media.greaterThan('medium')`
+        font-size: 16px;
+    `}
 `;
 
 const Subtitle = ({ children, date }) => (

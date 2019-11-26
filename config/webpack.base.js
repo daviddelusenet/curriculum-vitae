@@ -1,6 +1,6 @@
 /* eslint sort-keys: 0 */
 const { resolve } = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { distPath, publicPath } = require('./paths');
@@ -38,9 +38,7 @@ module.exports = () => ({
         ],
     },
     plugins: [
-        new CleanWebpackPlugin([distPath], {
-            allowExternal: true,
-        }),
+        new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
             {
                 from: publicPath,
