@@ -1,27 +1,26 @@
-/* eslint sort-keys: 0 */
-const webpack = require('webpack');
-const merge = require('webpack-merge');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const CompressionPlugin = require('compression-webpack-plugin');
-const baseConfig = require('./webpack.base');
+const merge = require('webpack-merge');
+const webpack = require('webpack');
+const webpackConfig = require('./webpack.config');
 
 module.exports = (env = {}) => (
-    merge(baseConfig(), {
-        output: {
-            filename: '[name].[chunkhash].min.js',
-        },
+    merge(webpackConfig(), {
+        devtool: 'source-map',
         optimization: {
             splitChunks: {
                 cacheGroups: {
                     commons: {
-                        test: /[\\/]node_modules[\\/]/,
-                        name: 'vendors',
                         chunks: 'all',
+                        name: 'vendors',
+                        test: /[\\/]node_modules[\\/]/,
                     },
                 },
             },
         },
-        devtool: 'source-map',
+        output: {
+            filename: '[name].[chunkhash].min.js',
+        },
         plugins: [
             new BundleAnalyzerPlugin({
                 analyzerMode: env.analyze === 'true' ? 'server' : 'disabled',

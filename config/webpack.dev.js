@@ -1,13 +1,11 @@
-/* eslint sort-keys: 0 */
-const webpack = require('webpack');
 const { resolve } = require('path');
 const merge = require('webpack-merge');
 const Jarvis = require('webpack-jarvis');
-const baseConfig = require('./webpack.base');
+const webpack = require('webpack');
+const webpackConfig = require('./webpack.config');
 
 module.exports = () => (
-    merge(baseConfig(), {
-        devtool: 'inline-source-map',
+    merge(webpackConfig(), {
         devServer: {
             contentBase: resolve(__dirname, '../dist'),
             historyApiFallback: true,
@@ -15,6 +13,7 @@ module.exports = () => (
             open: true,
             publicPath: '/',
         },
+        devtool: 'inline-source-map',
         plugins: [
             new webpack.NamedModulesPlugin(),
             new Jarvis({

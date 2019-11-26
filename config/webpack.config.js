@@ -1,17 +1,12 @@
-/* eslint sort-keys: 0 */
-const { resolve } = require('path');
+const { distPath, publicPath } = require('./paths');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { distPath, publicPath } = require('./paths');
+const { resolve } = require('path');
 
 module.exports = () => ({
     entry: {
         'curriculum-vitae': ['@babel/polyfill', resolve(__dirname, '../src/index.js')],
-    },
-    output: {
-        path: distPath,
-        filename: '[name].[hash].min.js',
     },
     module: {
         rules: [
@@ -20,8 +15,8 @@ module.exports = () => ({
                 use: ['html-loader'],
             },
             {
-                test: /\.js$/,
                 exclude: /(node_modules)/,
+                test: /\.js$/,
                 use: ['babel-loader'],
             },
             {
@@ -36,6 +31,10 @@ module.exports = () => ({
                 ],
             },
         ],
+    },
+    output: {
+        filename: '[name].[hash].min.js',
+        path: distPath,
     },
     plugins: [
         new CleanWebpackPlugin(),
