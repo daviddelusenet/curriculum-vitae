@@ -10,7 +10,7 @@
         "dist": "npm run build:prod",
         "dist:analyze": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production --env.analyze=true",
         "lint:css": "stylelint './src/**/*.js' --config config/.stylelintrc.js",
-        "lint:js": "eslint './src/**/*.js' --config config/.eslintrc.js"
+        "lint:js": "eslint './src/**/*.js'"
     },
     "repository": {
         "type": "git",
