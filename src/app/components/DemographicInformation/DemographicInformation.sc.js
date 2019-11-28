@@ -38,7 +38,7 @@ export const InformationWrapper = styled.div`
     ${media.greaterThan('medium')`
         order: 1;
         flex: 0 0 auto;
-        width: 500px;
+        width: 496px;
     `}
 `;
 
