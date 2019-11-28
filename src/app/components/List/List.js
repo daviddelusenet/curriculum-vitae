@@ -1,72 +1,15 @@
-import { BLACK } from '../../../utils/consts';
-import media from 'styled-media-query';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styled from 'styled-components';
-import underline from '../../styles/mixins/underline';
+import { StyledList } from './List.sc';
 
-const StyledList = styled.ul`
-    margin: 0 0 24px;
-    line-height: 1.5;
-    font-size: 16px;
-    font-weight: 300;
-
-    li {
-        position: relative;
-        padding: 0 0 0 16px;
-
-        ${media.greaterThan('medium')`
-            padding: 0 0 0 24px;
-        `}
-
-        &::after,
-        &::before {
-            display: block;
-            position: absolute;
-            top: 12px;
-            left: 0;
-            background-color: ${BLACK};
-            width: 8px;
-            height: 1px;
-            content: '';
-
-            ${media.greaterThan('medium')`
-                top: 18px;
-                width: 12px;
-            `}
-        }
-
-        &::after {
-            transform: rotate(45deg);
-        }
-
-        &::before {
-            transform: rotate(-45deg);
-        }
-    }
-
-    a {
-        &:hover {
-            ${underline({ underlinePosition: '90%' })}
-        }
-    }
-
-    ${media.greaterThan('medium')`
-        margin: 0 0 40px;
-        font-size: 24px;
-    `}
-`;
-
-const List = ({ listItems }) => (
+const List = ({ children }) => (
     <StyledList>
-        {listItems.map((listItem) => (
-            <li dangerouslySetInnerHTML={{ __html: listItem }} key={listItem} />
-        ))}
+        {children}
     </StyledList>
 );
 
 List.propTypes = {
-    listItems: PropTypes.arrayOf(PropTypes.string).isRequired,
+    children: PropTypes.node.isRequired,
 };
 
 export default List;
