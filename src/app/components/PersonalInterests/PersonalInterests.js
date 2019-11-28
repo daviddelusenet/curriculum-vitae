@@ -8,11 +8,11 @@ const PersonalInterests = () => (
             {'Personal interests'}
         </Title>
         <Paragraph>
-            {`In my spare time, I spend a lot of time playing and watching basketball. I cannot get enough of it;
-            basketball is just a beautiful game.`}
+            {`In my spare time, I spend a lot of time playing and watching basketball. I can't get enough of it;
+            basketball is just a beautiful game 🏀.`}
         </Paragraph>
         <Paragraph>
-            {'Besides that, I am really into fashion and I enjoy playing video games once in a while.'}
+            {'Besides that, I\'m really into fashion and I enjoy playing video games once in a while.'}
         </Paragraph>
     </>
 );
