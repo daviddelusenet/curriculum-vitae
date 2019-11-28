@@ -1,6 +1,6 @@
 import DemographicInformation from './components/DemographicInformation/DemographicInformation';
 import DevelopmentSkills from './components/DevelopmentSkills/DevelopmentSkills';
-import GlobalStyle from './styles/base';
+import GlobalStyles from './styles/globalStyles';
 import { hot } from 'react-hot-loader';
 import Introduction from './components/Introduction/Introduction';
 import media from 'styled-media-query';
@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 
 const App = () => (
     <Wrapper>
-        <GlobalStyle />
+        <GlobalStyles />
         <DemographicInformation />
         <Introduction />
         <WorkingExperience />

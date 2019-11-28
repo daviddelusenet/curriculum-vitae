@@ -1,6 +1,6 @@
 import { ALABASTER, BLACK, OPEN_SANS } from '../../utils/consts';
 import { createGlobalStyle } from 'styled-components';
-import reset from 'styled-reset';
+import reset from 'styled-reset-advanced';
 
 export default createGlobalStyle`
     ${reset}
