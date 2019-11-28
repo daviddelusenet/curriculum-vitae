@@ -13,7 +13,7 @@ const PersonalInterests = () => (
         </Paragraph>
         <Paragraph>
             {`When I'm not on a basketball court or yoga mat I'm spending most of my time with my girlfriend and
-            our son Eden which was born in November 2019 👼.`}
+            our son Eden which was born in November 2018 👼.`}
         </Paragraph>
         <Paragraph>
             {'Besides the above, I\'m really into fashion and I enjoy playing video games once in a while.'}
