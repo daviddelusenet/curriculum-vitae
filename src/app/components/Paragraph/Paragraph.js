@@ -1,3 +1,4 @@
+import { ECSTASY } from '../../../utils/consts';
 import media from 'styled-media-query';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -11,8 +12,10 @@ const StyledParagraph = styled.p`
     font-weight: 300;
 
     a {
+        color: ${ECSTASY};
+
         &:hover {
-            ${underline()}
+            ${underline({ color: ECSTASY })}
         }
     }
 

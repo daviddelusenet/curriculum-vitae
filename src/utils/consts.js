@@ -2,6 +2,7 @@
 // Color names by http://chir.ag/projects/name-that-color/
 export const ALABASTER = '#fafafa';
 export const BLACK = '#000';
+export const ECSTASY = '#fA8320';
 export const WHITE = '#fff';
 
 // Font-families

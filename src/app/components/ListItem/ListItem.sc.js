@@ -1,7 +1,6 @@
 import { BLACK } from '../../../utils/consts';
 import media from 'styled-media-query';
 import styled from 'styled-components';
-import underline from '../../styles/mixins/underline';
 
 export const StyledListItem = styled.li`
     position: relative;
@@ -38,12 +37,6 @@ export const StyledListItem = styled.li`
 
     &::before {
         transform: rotate(-45deg);
-    }
-
-    a {
-        &:hover {
-            ${underline({ underlinePosition: '90%' })}
-        }
     }
 `;
 

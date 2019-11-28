@@ -9,7 +9,10 @@ const WorkingExperience = () => (
             {'Working experience'}
         </Title>
         <Subtitle date="August 2019 - present">
-            {'front-end developer consultant at Cygni Netherlands'}
+            {'front-end developer consultant at '}
+            <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
+                {'Cygni Netherlands'}
+            </a>
         </Subtitle>
         <Paragraph>
             {`Cygni Netherlands is a young consultant company and the sister company of Cygni Sweden. Cygni Sweden is
@@ -48,7 +51,10 @@ const WorkingExperience = () => (
             using Docker.`}
         </Paragraph>
         <Subtitle date="January 2018 - August 2019">
-            {'front-end developer at Random Studio'}
+            {'front-end developer at '}
+            <a href="https://random.studio/" rel="noopener noreferrer" target="_blank">
+                {'Random Studio'}
+            </a>
         </Subtitle>
         <Paragraph>
             {`Random is an independent strategy and design studio which blurs the boundaries between art, design and
@@ -92,7 +98,10 @@ const WorkingExperience = () => (
             including a component library with React and Storybook.`}
         </Paragraph>
         <Subtitle date="February 2016 - January 2018">
-            {'(interm) front-end developer at Momkai'}
+            {'(interm) front-end developer at '}
+            <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
+                {'Momkai'}
+            </a>
         </Subtitle>
         <Paragraph>
             {`I started working at Momkai as an intern during my graduation internship. During my internship, I mainly
@@ -103,9 +112,9 @@ const WorkingExperience = () => (
             {`VanMoof was the first client I did work for while at Momkai: I built them a bike configurator. When you
             use this configurator you can do simple configuration changes to your selected bike. This configurator is
             build using Backbone.js and vanilla JavaScript and the styling is done with SCSS. I also worked on several
-            other components of `}
+            other components of the `}
             <a href="https://vanmoof.com" rel="noopener noreferrer" target="_blank">
-                {'the VanMoof website'}
+                {'VanMoof website'}
             </a>
             {'.'}
         </Paragraph>
@@ -130,7 +139,10 @@ const WorkingExperience = () => (
             Scheepvaartmuseum, IKEA and Bugaboo.`}
         </Paragraph>
         <Subtitle date="March 2012 - January 2016">
-            {'(intern) front-end developer at Atabix Solutions'}
+            {'(intern) front-end developer at '}
+            <a href="https://atabix.com/" rel="noopener noreferrer" target="_blank">
+                {'Atabix Solutions'}
+            </a>
         </Subtitle>
         <Paragraph>
             {`I started this job as an intern as well. After my internship ended, both parties were so excited about the

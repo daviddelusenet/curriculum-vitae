@@ -1,25 +1,6 @@
-import media from 'styled-media-query';
 import PropTypes from 'prop-types';
 import React from 'react';
-import styled from 'styled-components';
-
-const StyledSubtitle = styled.h4`
-    margin: 0 0 8px;
-    line-height: 1.5;
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-
-    span {
-        display: block;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    ${media.greaterThan('medium')`
-        font-size: 16px;
-    `}
-`;
+import { StyledSubtitle } from './Subtitle.sc';
 
 const Subtitle = ({ children, date }) => (
     <StyledSubtitle>
