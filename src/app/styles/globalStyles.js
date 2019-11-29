@@ -1,4 +1,3 @@
-import { ALABASTER, BLACK, OPEN_SANS } from '../../utils/consts';
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset-advanced';
 
@@ -10,18 +9,18 @@ export default createGlobalStyle`
     }
 
     html {
-        background-color: ${ALABASTER};
-        color: ${BLACK};
+        background-color: ${({ theme }) => theme.primaryBackgroundColor};
+        color: ${({ theme }) => theme.primaryTextColor};
     }
 
     body {
-        font-family: ${OPEN_SANS};
+        font-family: ${({ theme }) => theme.primaryFontFamily};
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
 
     a {
         text-decoration: none;
-        color: ${BLACK};
+        color: ${({ theme }) => theme.primaryTextColor};
     }
 `;

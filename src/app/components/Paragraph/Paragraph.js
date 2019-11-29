@@ -1,10 +1,10 @@
-import { ECSTASY } from '../../../utils/consts';
 import media from 'styled-media-query';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
+/* eslint-disable indent */
 const StyledParagraph = styled.p`
     margin: 0 0 24px;
     line-height: 1.5;
@@ -12,10 +12,13 @@ const StyledParagraph = styled.p`
     font-weight: 300;
 
     a {
-        color: ${ECSTASY};
+        color: ${({ theme }) => theme.primaryLinkColor};
 
         &:hover {
-            ${underline({ color: ECSTASY })}
+            ${({ theme }) => underline({
+                backgroundColor: theme.primaryBackgroundColor,
+                color: theme.primaryLinkColor,
+            })}
         }
     }
 
@@ -24,6 +27,7 @@ const StyledParagraph = styled.p`
         font-size: 24px;
     `}
 `;
+/* eslint-enable */
 
 const Paragraph = ({ children }) => (
     <StyledParagraph>

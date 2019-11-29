@@ -1,8 +1,7 @@
 // This mixin is based on https://eager.io/blog/smarter-link-underlines/
-import { ALABASTER, BLACK } from '../../../utils/consts';
 import { css } from 'styled-components';
 
-export const textShadowToCropUnderline = ({ backgroundColor = ALABASTER } = {}) => (css`
+export const textShadowToCropUnderline = (backgroundColor) => (css`
     text-shadow: 0 .03em ${backgroundColor},
         0 -.03em ${backgroundColor},
         .03em 0 ${backgroundColor},
@@ -25,11 +24,11 @@ export const animateUnderline = () => (css`
 
 export default ({
     animate = false,
-    backgroundColor = ALABASTER,
-    color = BLACK,
+    backgroundColor,
+    color,
     underlinePosition = '88%',
 } = {}) => (css`
-    ${textShadowToCropUnderline({ backgroundColor })}
+    ${textShadowToCropUnderline(backgroundColor)}
     background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),
         linear-gradient(${backgroundColor}, ${backgroundColor}),
         linear-gradient(${color}, ${color});

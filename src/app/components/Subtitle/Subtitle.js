@@ -12,7 +12,7 @@ const Subtitle = ({ children, date }) => (
 );
 
 Subtitle.propTypes = {
-    children: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
     date: PropTypes.string.isRequired,
 };
 

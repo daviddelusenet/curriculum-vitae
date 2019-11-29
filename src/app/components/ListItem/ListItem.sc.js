@@ -1,4 +1,3 @@
-import { BLACK } from '../../../utils/consts';
 import media from 'styled-media-query';
 import styled from 'styled-components';
 
@@ -20,7 +19,7 @@ export const StyledListItem = styled.li`
         position: absolute;
         top: 12px;
         left: 0;
-        background-color: ${BLACK};
+        background-color: ${({ theme }) => theme.primaryTextColor};
         width: 8px;
         height: 1px;
         content: '';

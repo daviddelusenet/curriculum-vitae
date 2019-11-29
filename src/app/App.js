@@ -1,3 +1,4 @@
+import styled, { ThemeProvider } from 'styled-components';
 import DemographicInformation from './components/DemographicInformation/DemographicInformation';
 import DevelopmentSkills from './components/DevelopmentSkills/DevelopmentSkills';
 import GlobalStyles from './styles/globalStyles';
@@ -6,7 +7,7 @@ import Introduction from './components/Introduction/Introduction';
 import media from 'styled-media-query';
 import PersonalInterests from './components/PersonalInterests/PersonalInterests';
 import React from 'react';
-import styled from 'styled-components';
+import themeLight from './styles/themes/light';
 import WorkingExperience from './components/WorkingExperience/WorkingExperience';
 
 const Wrapper = styled.div`
@@ -20,14 +21,16 @@ const Wrapper = styled.div`
 `;
 
 const App = () => (
-    <Wrapper>
-        <GlobalStyles />
-        <DemographicInformation />
-        <Introduction />
-        <WorkingExperience />
-        <DevelopmentSkills />
-        <PersonalInterests />
-    </Wrapper>
+    <ThemeProvider theme={themeLight}>
+        <Wrapper>
+            <GlobalStyles />
+            <DemographicInformation />
+            <Introduction />
+            <WorkingExperience />
+            <DevelopmentSkills />
+            <PersonalInterests />
+        </Wrapper>
+    </ThemeProvider>
 );
 
 export default hot(module)(App);

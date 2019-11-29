@@ -1,5 +1,4 @@
 import media from 'styled-media-query';
-import { SOURCE_SERIF_PRO } from '../../../utils/consts';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -7,7 +6,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Name = styled.h1`
-    font-family: ${SOURCE_SERIF_PRO};
+    font-family: ${({ theme }) => theme.secondaryFontFamily};
     font-size: 40px;
     font-weight: 700;
 

@@ -1,4 +1,3 @@
-import { ECSTASY } from '../../../utils/consts';
 import media from 'styled-media-query';
 import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
@@ -18,11 +17,12 @@ export const StyledSubtitle = styled.h4`
     }
 
     a {
-        color: ${ECSTASY};
+        color: ${({ theme }) => theme.primaryLinkColor};
 
         &:hover {
-            ${underline({
-                color: ECSTASY,
+            ${({ theme }) => underline({
+                backgroundColor: theme.primaryBackgroundColor,
+                color: theme.primaryLinkColor,
                 underlinePosition: '92%',
             })}
         }
