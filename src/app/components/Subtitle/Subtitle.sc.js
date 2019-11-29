@@ -4,9 +4,9 @@ import underline from '../../styles/mixins/underline';
 
 /* eslint-disable indent */
 export const StyledSubtitle = styled.h4`
-    margin: 0 0 8px;
+    margin: 0 0 4px;
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
 
@@ -29,7 +29,8 @@ export const StyledSubtitle = styled.h4`
     }
 
     ${media.greaterThan('medium')`
-        font-size: 16px;
+        margin: 0 0 8px;
+        font-size: 18px;
     `}
 `;
 /* eslint-enable */
