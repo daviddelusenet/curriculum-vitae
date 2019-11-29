@@ -42,10 +42,18 @@ const DemographicInformation = () => (
                 </InformationRow>
                 <InformationRow>
                     <InformationKey>
-                        {'Current home town'}
+                        {'Current location'}
                     </InformationKey>
                     <InformationValue>
                         {'Amsterdam'}
+                    </InformationValue>
+                </InformationRow>
+                <InformationRow>
+                    <InformationKey>
+                        {'Drivers license'}
+                    </InformationKey>
+                    <InformationValue>
+                        {'B'}
                     </InformationValue>
                 </InformationRow>
                 <Icons>

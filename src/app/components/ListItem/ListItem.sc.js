@@ -5,7 +5,7 @@ export const StyledListItem = styled.li`
     position: relative;
     padding: 0 0 0 16px;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
 
     ${media.greaterThan('medium')`
@@ -17,7 +17,7 @@ export const StyledListItem = styled.li`
     &::before {
         display: block;
         position: absolute;
-        top: 12px;
+        top: 13px;
         left: 0;
         background-color: ${({ theme }) => theme.primaryTextColor};
         width: 8px;

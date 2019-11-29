@@ -2,7 +2,11 @@ import media from 'styled-media-query';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    padding: 80px 0 64px;
+    padding: 60px 0 40px;
+
+    ${media.greaterThan('medium')`
+        padding: 80px 0 64px;
+    `}
 `;
 
 export const Name = styled.h1`
@@ -46,12 +50,20 @@ export const InformationRow = styled.div`
     flex-wrap: nowrap;
     line-height: 1.5;
     font-size: 16px;
+
+    ${media.greaterThan('medium')`
+        font-size: 20px;
+    `}
 `;
 
 export const InformationKey = styled.p`
     flex: 0 0 auto;
-    padding: 0 16px 0 0;
-    width: 200px;
+    padding: 0 20px 0 0;
+    width: 180px;
+
+    ${media.greaterThan('medium')`
+        width: 240px;
+    `}
 `;
 
 export const InformationValue = styled.p`
@@ -88,11 +100,12 @@ export const AvatarWrapper = styled.figure`
     flex: 0 0 auto;
     order: 1;
     margin: 0 0 16px;
-    width: 200px;
+    width: 160px;
 
     ${media.greaterThan('medium')`
         order: 2;
         margin: 0;
+        width: 200px;
     `}
 `;
 

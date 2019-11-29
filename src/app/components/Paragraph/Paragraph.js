@@ -8,7 +8,7 @@ import underline from '../../styles/mixins/underline';
 const StyledParagraph = styled.p`
     margin: 0 0 24px;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
 
     a {

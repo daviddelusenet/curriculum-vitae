@@ -12,11 +12,11 @@ import WorkingExperience from './components/WorkingExperience/WorkingExperience'
 
 const Wrapper = styled.div`
     margin: 0 auto;
-    padding: 0 24px 80px;
+    padding: 0 24px 40px;
     max-width: 760px;
 
     ${media.greaterThan('medium')`
-        padding: 0 32px 100px;
+        padding: 0 32px 80px;
     `}
 `;
 
