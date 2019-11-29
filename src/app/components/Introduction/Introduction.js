@@ -8,31 +8,32 @@ const Introduction = () => (
             {'Introduction'}
         </Title>
         <Paragraph>
-            {`Since a young age I was always interested in technology.
-            However, I didn't start coding until about 2010, when I started with my education
-            Communication and Multimedia Design at the University of Applied Sciences Amsterdam.`}
+            {`Ever since a young age I was always interested in technology. I was spending a lot of time behind the
+            computer, just browsing the web and downloading music. However, I didn't start coding until about 2010, when
+            I started studying Communication and Multimedia Design at the University of Applied Sciences (HvA).`}
         </Paragraph>
         <Paragraph>
-            {`During my first job, at a company called Atabix Solutions, I learned a lot of my basic development skills.
-            At that time, Atabix was still an up and coming agency. They gave me the opportunity to have a lot of
-            responsibility within the company and to kickstart my personal career.`}
+            {`In my second year I was required to do an intership and I decided to do it at a company called Atabix
+            Solutions. That's where I learned most of my basic development skills. At that time, Atabix was still an up
+            and coming agency. This gave me the opportunity to have a lot of responsibility within the company and to
+            kickstart my career as a developer.`}
         </Paragraph>
         <Paragraph>
-            {`After working at Atabix for almost four years, I needed to do a graduation internship to wrap up my
-            education. Since it was time for a change I decided to do this internship at Momkai. When I finished my
-            internship Momkai offered me a full time job which I gratefully accepted.`}
+            {`After working at Atabix for almost four years, it was time to wrap up my education by means of a
+            graduation internship. I decided to do this internship at a design studio called Momkai, where I got offered
+            a full-time job upon completion.`}
         </Paragraph>
         <Paragraph>
             {`At Momkai I started taking serious steps towards becoming an experienced developer. I (finally) stopped
-            working with tools like jQuery and started doing projects with React and Backbone.js. After two fun years
-            where I learned a lot I decided I was ready for something new. I started applying for front-end developer
-            positions at various creative agencies and ended up at Random Studio.`}
+            working with tools like jQuery and started working on projects with React and Backbone.js. After two fun
+            years, where I grew both personally and professionally, I decided I was ready for something new. I started
+            applying for front-end developer positions at various creative agencies and ended up at a Random Studio.`}
         </Paragraph>
         <Paragraph>
-            {`I worked at Random for about one and half years. While it was really fun to work there I noticed that I
-            was missing challenge in my daily work. I came to the conclusion that while working in the creative
-            industry it would be hard to find consistent technological challenge. I decided to persue a job in the
-            consultant sector and joined an awesome company called Cygni.`}
+            {`I worked at Random for about one and half years. While it was really fun place to work, I noticed that I
+            was missing a challenge in my day-to-day operations. I came to the conclusion that it would be hard to find
+            consistent technological challenge while working in the creative industry. This made me decide to persue a
+            job in the consultant sector instead and I joined an awesome company called Cygni.`}
         </Paragraph>
     </>
 );

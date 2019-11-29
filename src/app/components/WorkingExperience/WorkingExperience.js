@@ -15,8 +15,8 @@ const WorkingExperience = () => (
             </a>
         </Subtitle>
         <Paragraph>
-            {`Cygni Netherlands is a young consultant company and the sister company of Cygni Sweden. Cygni Sweden is
-            really succesful and they decided they wanted to expand their market. Cygni Netherlands was founded at the
+            {`Cygni Netherlands is a consultant company based in Amsterdam and is the sister company of Cygni Sweden,
+            which decided to expand to the Dutch market due to its success. Cygni Netherlands was founded at the
             start of 2019 and I'm the first developer they hired.`}
         </Paragraph>
         <Paragraph>
@@ -36,14 +36,14 @@ const WorkingExperience = () => (
             {'.'}
         </Paragraph>
         <Paragraph>
-            {`When I'm not on an assignment or have any spare time I'm working on an internal project for Cygni: an
-            application where employees can keep track of scores of the numerous games they play versus each other.
-            Think games like table football, pool and table tennis.`}
+            {`When I'm not on an assignment, or have any spare time I'm working on an internal project for Cygni called
+            scorekeeper. It's an application where employees can keep track of the results of the numerous games they
+            play versus each other.`}
         </Paragraph>
         <Paragraph>
-            {`I'm using this project to teach myself new things so I'm trying to primarily use technologies I'm not
-            familiar with yet. I'm developing both the front and back-end of this application. For the front-end I'm
-            using TypeScript, React, Styled Components and Apollo GraphQL.`}
+            {`Another goal of this project is to teach myself new things. This means I'm trying to primarily use
+            technologies I'm not familiar with yet. I'm developing both the front and back-end of this application. For
+            the front-end I'm using TypeScript, React, Styled Components and Apollo GraphQL.`}
         </Paragraph>
         <Paragraph>
             {`The back-end is a Node (Express) server which exposes a GraphQL API to the front-end. This API uses
@@ -71,12 +71,12 @@ const WorkingExperience = () => (
             <a href="https://www.youtube.com/watch?v=X3fPWN-nt4o" rel="noopener noreferrer" target="_blank">
                 {'Digital Showroom'}
             </a>
-            {`. The Video Wall originally was built with C and therefore was difficult to maintain. I rebuild the Video
+            {`. The Video Wall was originally built in C and was therefore difficult to maintain. I rebuilt the Video
             Wall with web technologies like React and Styled Components. I also built a Node server using Express to
             communicate between the Video Wall and the Touch Table.`}
         </Paragraph>
         <Paragraph>
-            {`One of my most treasured projects to date is the webshop I've built for one of my favorite designers, Raf
+            {`One of my most treasured projects to date is the webshop I've built for one of my favorite designers: Raf
             Simons. This was a relatively straight forward project, I used React and Styled Components
             for the front-end and Shopify for the back-end. The front-end uses the Shopify JavaScript SDK to communicate
             with the back-end, thus creating a fully custom shopping experience.`}
@@ -91,27 +91,27 @@ const WorkingExperience = () => (
             >
                 {'Store of the Future'}
             </a>
-            {` they’re developing for PVH. I was the lead developer on multiple sub-projects of that project.
-            For example, I've rebuild the entire product detail page and catalog browser. This project is build
-            with React, CSS Modules and Redux.`}
+            {` they’re developing for PVH. I was the lead developer on multiple sub-projects of that project. For
+            example, I've rebuilt the entire product detail page and catalog browser. This project is built with React,
+            CSS Modules and Redux.`}
             {`I also did a lot of architectural work on this project and have even developed an entire design-system
             including a component library with React and Storybook.`}
         </Paragraph>
         <Subtitle date="February 2016 - January 2018">
-            {'(interm) front-end developer at '}
+            {'(internship) front-end developer at '}
             <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
                 {'Momkai'}
             </a>
         </Subtitle>
         <Paragraph>
-            {`I started working at Momkai as an intern during my graduation internship. During my internship, I mainly
-            focused on improving my JavaScript skills and writing cleaner code. After my internship ended, I started
-            working full time at Momkai.`}
+            {`I started working at Momkai as during my graduation internship. During my internship, I mainly focused on
+            improving my JavaScript skills and writing cleaner code. After my internship ended, I started working full
+            time at Momkai.`}
         </Paragraph>
         <Paragraph>
-            {`VanMoof was the first client I did work for while at Momkai: I built them a bike configurator. When you
-            use this configurator you can do simple configuration changes to your selected bike. This configurator is
-            build using Backbone.js and vanilla JavaScript and the styling is done with SCSS. I also worked on several
+            {`VanMoof was the first client I worked for while at Momkai: I built them a bike configurator. When you use
+            this configurator, you can do simple configuration changes to your selected bike. This configurator is
+            built using Backbone.js and vanilla JavaScript and the styling is done with SCSS. I also worked on several
             other components of the `}
             <a href="https://vanmoof.com" rel="noopener noreferrer" target="_blank">
                 {'VanMoof website'}
@@ -139,7 +139,7 @@ const WorkingExperience = () => (
             Scheepvaartmuseum, IKEA and Bugaboo.`}
         </Paragraph>
         <Subtitle date="March 2012 - January 2016">
-            {'(intern) front-end developer at '}
+            {'(internship) front-end developer at '}
             <a href="https://atabix.com/" rel="noopener noreferrer" target="_blank">
                 {'Atabix Solutions'}
             </a>

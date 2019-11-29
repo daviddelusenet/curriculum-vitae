@@ -12,7 +12,7 @@ const PersonalInterests = () => (
             basketball is just a beautiful game 🏀. I also enjoy doing yoga and going to the gym.`}
         </Paragraph>
         <Paragraph>
-            {`When I'm not on a basketball court or yoga mat I'm spending most of my time with my girlfriend and
+            {`When I'm not on a basketball court or yoga mat, I'm spending most of my time with my girlfriend and
             our son Eden which was born in November 2018 👼.`}
         </Paragraph>
         <Paragraph>
