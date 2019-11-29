@@ -84,6 +84,10 @@ export const Icons = styled.div`
         width: 32px;
         height: 32px;
 
+        &:hover {
+            color: ${({ theme }) => theme.primaryLinkColor};
+        }
+
         &:last-of-type {
             margin: 0;
         }
@@ -91,6 +95,7 @@ export const Icons = styled.div`
 
     svg {
         display: block;
+        transition: color 200ms ease;
         width: 32px;
         height: 32px;
     }

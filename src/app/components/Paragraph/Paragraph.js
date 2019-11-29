@@ -18,7 +18,15 @@ const StyledParagraph = styled.p`
             ${({ theme }) => underline({
                 backgroundColor: theme.primaryBackgroundColor,
                 color: theme.primaryLinkColor,
+                underlinePosition: '90%',
             })}
+
+            ${media.greaterThan('medium')`
+                ${({ theme }) => underline({
+                    backgroundColor: theme.primaryBackgroundColor,
+                    color: theme.primaryLinkColor,
+                })}
+            `}
         }
     }
 
