@@ -27,12 +27,14 @@ module.exports = () => ({
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new CopyWebpackPlugin([
-            {
-                from: publicPath,
-                to: distPath,
-            },
-        ]),
+        new CopyWebpackPlugin({
+            patterns: [
+                {
+                    from: publicPath,
+                    to: distPath,
+                },
+            ],
+        }),
         new HtmlWebpackPlugin({
             template: resolve(__dirname, '../src/templates/index.html'),
         }),

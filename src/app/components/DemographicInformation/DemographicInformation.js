@@ -12,7 +12,7 @@ import {
     Wrapper,
 } from './DemographicInformation.sc';
 import React from 'react';
-import ReactSVG from 'react-svg';
+import { ReactSVG } from 'react-svg';
 
 const DemographicInformation = () => (
     <Wrapper>
