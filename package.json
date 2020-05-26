@@ -9,6 +9,7 @@
         "build:prod": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production",
         "dist": "npm run build:prod",
         "dist:analyze": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production --env.analyze=true",
+        "lint:all": "npm run lint:js && npm run lint:css",
         "lint:css": "stylelint './src/**/*.js' --config config/.stylelintrc.js",
         "lint:js": "eslint './src/**/*.js'"
     },
