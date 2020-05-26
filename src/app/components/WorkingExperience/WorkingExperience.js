@@ -13,9 +13,9 @@ const WorkingExperience = () => (
             </a>
         </Subtitle>
         <Paragraph>
-            {`Cygni Netherlands is a consultant company based in Amsterdam and is the sister company of Cygni Sweden,
-            which decided to expand to the Dutch market due to its success. Cygni Netherlands was founded at the
-            start of 2019 and I'm the first developer they hired.`}
+            {`Cygni Netherlands is a consultant company based in Amsterdam and is the sister company of Cygni Sweden.
+            Cygni decided to expand to the Dutch market due to its success in Sweden. Cygni Netherlands was founded at
+            the start of 2019 and I'm actually the first developer they hired.`}
         </Paragraph>
         <Paragraph>
             {"I'm currently on my first assignment as a consultant: I'm helping "}
@@ -34,8 +34,8 @@ const WorkingExperience = () => (
             {'.'}
         </Paragraph>
         <Paragraph>
-            {`When I'm not on an assignment, or have any spare time I'm working on an internal project for Cygni called
-            scorekeeper. It's an application where employees can keep track of the results of the numerous games they
+            {`When I'm not on an assignment or have any spare time I'm working on an internal project for Cygni called
+            scorekeeper. This is an application where employees can keep track of the results of the numerous games they
             play versus each other.`}
         </Paragraph>
         <Paragraph>
@@ -98,15 +98,15 @@ const WorkingExperience = () => (
             including a component library with React and Storybook.`}
         </Paragraph>
         <Subtitle date="February 2016 - January 2018">
-            {'(internship) front-end developer at '}
+            {'(intern) front-end developer at '}
             <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
                 {'Momkai'}
             </a>
         </Subtitle>
         <Paragraph>
-            {`I started working at Momkai as during my graduation internship. During my internship, I mainly focused on
-            improving my JavaScript skills and writing cleaner code. After my internship ended, I started working full
-            time at Momkai.`}
+            {`I began working at Momkai at the start of my graduation internship. During this internship, I mainly
+            focused on improving my JavaScript skills and writing cleaner code. After my internship ended, I started
+            working full time at Momkai.`}
         </Paragraph>
         <Paragraph>
             {`VanMoof was the first client I worked for while at Momkai: I built them a bike configurator. When you use
