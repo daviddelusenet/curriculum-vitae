@@ -4,7 +4,7 @@ const merge = require('webpack-merge');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 
-module.exports = (env = {}) => (
+module.exports = (env = {}) =>
     merge(webpackConfig(), {
         devtool: 'source-map',
         optimization: {
@@ -33,5 +33,4 @@ module.exports = (env = {}) => (
                 threshold: 10240,
             }),
         ],
-    })
-);
+    });

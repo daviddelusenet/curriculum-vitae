@@ -4,9 +4,7 @@ import Title from '../Title/Title';
 
 const Introduction = () => (
     <>
-        <Title>
-            {'Introduction'}
-        </Title>
+        <Title>{'Introduction'}</Title>
         <Paragraph>
             {`Ever since a young age I was always interested in technology. I was spending a lot of time behind the
             computer, just browsing the web and downloading music. However, I didn't start coding until about 2010, when

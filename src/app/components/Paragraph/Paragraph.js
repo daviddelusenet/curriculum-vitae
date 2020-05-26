@@ -15,17 +15,19 @@ const StyledParagraph = styled.p`
         color: ${({ theme }) => theme.primaryLinkColor};
 
         &:hover {
-            ${({ theme }) => underline({
-                backgroundColor: theme.primaryBackgroundColor,
-                color: theme.primaryLinkColor,
-                underlinePosition: '90%',
-            })}
-
-            ${media.greaterThan('medium')`
-                ${({ theme }) => underline({
+            ${({ theme }) =>
+                underline({
                     backgroundColor: theme.primaryBackgroundColor,
                     color: theme.primaryLinkColor,
+                    underlinePosition: '90%',
                 })}
+
+            ${media.greaterThan('medium')`
+                ${({ theme }) =>
+                    underline({
+                        backgroundColor: theme.primaryBackgroundColor,
+                        color: theme.primaryLinkColor,
+                    })}
             `}
         }
     }
@@ -37,17 +39,10 @@ const StyledParagraph = styled.p`
 `;
 /* eslint-enable */
 
-const Paragraph = ({ children }) => (
-    <StyledParagraph>
-        {children}
-    </StyledParagraph>
-);
+const Paragraph = ({ children }) => <StyledParagraph>{children}</StyledParagraph>;
 
 Paragraph.propTypes = {
-    children: PropTypes.oneOfType([
-        PropTypes.array,
-        PropTypes.string,
-    ]).isRequired,
+    children: PropTypes.oneOfType([PropTypes.array, PropTypes.string]).isRequired,
 };
 
 export default Paragraph;

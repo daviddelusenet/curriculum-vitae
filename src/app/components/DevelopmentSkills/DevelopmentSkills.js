@@ -40,24 +40,16 @@ const previousTools = [
 
 const DevelopmentSkills = () => (
     <>
-        <Title>
-            {'Development skills'}
-        </Title>
+        <Title>{'Development skills'}</Title>
         <List>
             {currentTools.map((tool) => (
-                <ListItem key={tool}>
-                    {tool}
-                </ListItem>
+                <ListItem key={tool}>{tool}</ListItem>
             ))}
         </List>
-        <Paragraph>
-            {'Tools I\'ve worked with in the past:'}
-        </Paragraph>
+        <Paragraph>{"Tools I've worked with in the past:"}</Paragraph>
         <List>
             {previousTools.map((tool) => (
-                <ListItem key={tool}>
-                    {tool}
-                </ListItem>
+                <ListItem key={tool}>{tool}</ListItem>
             ))}
         </List>
     </>

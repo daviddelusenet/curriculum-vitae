@@ -20,11 +20,12 @@ export const StyledSubtitle = styled.h4`
         color: ${({ theme }) => theme.primaryLinkColor};
 
         &:hover {
-            ${({ theme }) => underline({
-                backgroundColor: theme.primaryBackgroundColor,
-                color: theme.primaryLinkColor,
-                underlinePosition: '92%',
-            })}
+            ${({ theme }) =>
+                underline({
+                    backgroundColor: theme.primaryBackgroundColor,
+                    color: theme.primaryLinkColor,
+                    underlinePosition: '92%',
+                })}
         }
     }
 

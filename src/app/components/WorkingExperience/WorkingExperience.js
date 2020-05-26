@@ -5,9 +5,7 @@ import Title from '../Title/Title';
 
 const WorkingExperience = () => (
     <>
-        <Title>
-            {'Working experience'}
-        </Title>
+        <Title>{'Working experience'}</Title>
         <Subtitle date="August 2019 - present">
             {'front-end developer consultant at '}
             <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
@@ -20,7 +18,7 @@ const WorkingExperience = () => (
             start of 2019 and I'm the first developer they hired.`}
         </Paragraph>
         <Paragraph>
-            {'I\'m currently on my first assignment as a consultant: I\'m helping '}
+            {"I'm currently on my first assignment as a consultant: I'm helping "}
             <a href="http://www.dexels.com/" rel="noopener noreferrer" target="_blank">
                 {'Dexels'}
             </a>
@@ -84,8 +82,10 @@ const WorkingExperience = () => (
         <Paragraph>
             {'The last year of my time at Random I spent on their biggest project, the '}
             <a
-                href={'https://fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-'
-                + 'amsterdam-store/2018120730514'}
+                href={
+                    'https://fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-' +
+                    'amsterdam-store/2018120730514'
+                }
                 rel="noopener noreferrer"
                 target="_blank"
             >
@@ -149,9 +149,7 @@ const WorkingExperience = () => (
             collaboration so far that Atabix offered me a job. I had a lot of fun working there for four years and
             worked on numerous projects for clients like Oger, AFC and Cosmic Cowboys.`}
         </Paragraph>
-        <Subtitle date="2008 - 2010">
-            {'technical support at the University of Applied Sciences Amsterdam'}
-        </Subtitle>
+        <Subtitle date="2008 - 2010">{'technical support at the University of Applied Sciences Amsterdam'}</Subtitle>
         <Paragraph>
             {`My job here was to help students and teachers with any technical difficulties they faced. This could vary
             from setting up new computers to helping out with Photoshop or Final Cut Pro.`}

@@ -4,22 +4,23 @@ module.exports = {
         browser: true,
         es6: true
     },
-    settings: {
-        jsx: true
-    },
     plugins: [
-        'babel', 'react'
+        'babel',
+        'react',
+        'prettier'
     ],
-    extends: 'airbnb',
+    extends: [
+        'airbnb',
+        'prettier',
+        'prettier/babel',
+        'prettier/react',
+    ],
     rules: {
         'babel/semi': 1,
         'brace-style': [2, '1tbs'],
         curly: [2, 'all'],
         'import/no-extraneous-dependencies': 0,
         'import/order': 0,
-        indent: [2, 4, {
-            SwitchCase: 1,
-        }],
         'jsx-a11y/anchor-is-valid': [2, {
             components: ['Link'],
             specialLink: ['to']
@@ -64,11 +65,8 @@ module.exports = {
                 ],
             },
         ],
+        'prettier/prettier': 2,
         'react/jsx-curly-brace-presence': 0,
-        'react/jsx-indent': [2, 4, {
-            checkAttributes: true,
-            indentLogicalExpressions: true,
-        }],
         'react/jsx-indent-props': [2, 4],
         'react/jsx-filename-extension': 0,
         'react/jsx-max-props-per-line': [2, {
@@ -76,9 +74,6 @@ module.exports = {
         }],
         'react/jsx-no-literals': [2, {
             noStrings: false,
-        }],
-        'react/jsx-one-expression-per-line': [2, {
-            allow: 'literal',
         }],
         'react/jsx-sort-default-props': [2, {
             ignoreCase: false,

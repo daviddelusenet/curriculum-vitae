@@ -4,7 +4,7 @@ const Jarvis = require('webpack-jarvis');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 
-module.exports = () => (
+module.exports = () =>
     merge(webpackConfig(), {
         devServer: {
             contentBase: resolve(__dirname, '../dist'),
@@ -20,5 +20,4 @@ module.exports = () => (
                 port: 1337,
             }),
         ],
-    })
-);
+    });

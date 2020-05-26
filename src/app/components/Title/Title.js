@@ -5,11 +5,12 @@ import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
 const StyledTitle = styled.h3`
-    ${({ theme }) => underline({
-        backgroundColor: theme.primaryBackgroundColor,
-        color: theme.primaryTextColor,
-        underlinePosition: '92%',
-    })}
+    ${({ theme }) =>
+        underline({
+            backgroundColor: theme.primaryBackgroundColor,
+            color: theme.primaryTextColor,
+            underlinePosition: '92%',
+        })}
     margin: 0 0 16px;
     font-family: ${({ theme }) => theme.secondaryFontFamily};
     font-size: 28px;
@@ -20,11 +21,7 @@ const StyledTitle = styled.h3`
     `}
 `;
 
-const Title = ({ children }) => (
-    <StyledTitle>
-        {children}
-    </StyledTitle>
-);
+const Title = ({ children }) => <StyledTitle>{children}</StyledTitle>;
 
 Title.propTypes = {
     children: PropTypes.string.isRequired,

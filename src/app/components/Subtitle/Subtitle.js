@@ -4,9 +4,7 @@ import { StyledSubtitle } from './Subtitle.sc';
 
 const Subtitle = ({ children, date }) => (
     <StyledSubtitle>
-        <span>
-            {date}
-        </span>
+        <span>{date}</span>
         {children}
     </StyledSubtitle>
 );

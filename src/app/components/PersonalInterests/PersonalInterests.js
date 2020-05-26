@@ -4,9 +4,7 @@ import Title from '../Title/Title';
 
 const PersonalInterests = () => (
     <>
-        <Title>
-            {'Personal interests'}
-        </Title>
+        <Title>{'Personal interests'}</Title>
         <Paragraph>
             {`In my spare time, I spend a lot of time playing and watching basketball. I can't get enough of it;
             basketball is just a beautiful game 🏀. I also enjoy doing yoga and going to the gym.`}
@@ -16,7 +14,7 @@ const PersonalInterests = () => (
             our son Eden which was born in November 2018 👼.`}
         </Paragraph>
         <Paragraph>
-            {'Besides the above, I\'m really into fashion and I enjoy playing video games once in a while.'}
+            {"Besides the above, I'm really into fashion and I enjoy playing video games once in a while."}
         </Paragraph>
     </>
 );

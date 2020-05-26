@@ -1,8 +1,10 @@
 module.exports = {
+    plugins: ['stylelint-prettier'],
     extends: [
         'stylelint-config-recommended',
         'stylelint-config-styled-components',
         'stylelint-config-concentric-order',
+        'stylelint-config-prettier',
     ],
     rules: {
         'block-closing-brace-newline-after': 'always',
@@ -28,11 +30,9 @@ module.exports = {
             ],
         }],
         'function-parentheses-space-inside': 'never',
-        indentation: [4, {
-            indentInsideParens: 'once-at-root-twice-in-block',
-        }],
         'length-zero-no-unit': true,
         'max-empty-lines': 1,
+        'prettier/prettier': true,
         'rule-empty-line-before': ['always', {
             except: ['after-single-line-comment', 'first-nested']
         }],

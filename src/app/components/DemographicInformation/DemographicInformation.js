@@ -16,45 +16,25 @@ import { ReactSVG } from 'react-svg';
 
 const DemographicInformation = () => (
     <Wrapper>
-        <Name>
-            {'David de Lusenet'}
-        </Name>
-        <Occupation>
-            {'Front-end developer'}
-        </Occupation>
+        <Name>{'David de Lusenet'}</Name>
+        <Occupation>{'Front-end developer'}</Occupation>
         <Inner>
             <InformationWrapper>
                 <InformationRow>
-                    <InformationKey>
-                        {'Date of birth'}
-                    </InformationKey>
-                    <InformationValue>
-                        {'June 24, 1992'}
-                    </InformationValue>
+                    <InformationKey>{'Date of birth'}</InformationKey>
+                    <InformationValue>{'June 24, 1992'}</InformationValue>
                 </InformationRow>
                 <InformationRow>
-                    <InformationKey>
-                        {'Nationality'}
-                    </InformationKey>
-                    <InformationValue>
-                        {'Dutch'}
-                    </InformationValue>
+                    <InformationKey>{'Nationality'}</InformationKey>
+                    <InformationValue>{'Dutch'}</InformationValue>
                 </InformationRow>
                 <InformationRow>
-                    <InformationKey>
-                        {'Current location'}
-                    </InformationKey>
-                    <InformationValue>
-                        {'Amsterdam'}
-                    </InformationValue>
+                    <InformationKey>{'Current location'}</InformationKey>
+                    <InformationValue>{'Amsterdam'}</InformationValue>
                 </InformationRow>
                 <InformationRow>
-                    <InformationKey>
-                        {'Drivers license'}
-                    </InformationKey>
-                    <InformationValue>
-                        {'B'}
-                    </InformationValue>
+                    <InformationKey>{'Drivers license'}</InformationKey>
+                    <InformationValue>{'B'}</InformationValue>
                 </InformationRow>
                 <Icons>
                     <a
