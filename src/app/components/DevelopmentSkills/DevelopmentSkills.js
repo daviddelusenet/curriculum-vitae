@@ -15,9 +15,13 @@ const currentTools = [
     'Storybook',
     'Styled Components',
     'GSAP',
-    'Webpack/Babel',
+    'Webpack',
+    'Rollup',
+    'Babel',
     'Git',
-    'ESLint/Stylelint',
+    'ESLint',
+    'Stylelint',
+    'Prettier',
 ];
 
 const previousTools = [

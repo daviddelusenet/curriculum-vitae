@@ -41,9 +41,9 @@ const WorkingExperience = () => (
             play versus each other.`}
         </Paragraph>
         <Paragraph>
-            {`Another goal of this project is to teach myself new things. This means I'm trying to primarily use
-            technologies I'm not familiar with yet. I'm developing both the front and back-end of this application. For
-            the front-end I'm using TypeScript, React, Styled Components and Apollo GraphQL.`}
+            {`One of the goals of this project is to teach myself new things. This means I'm trying to primarily use
+            technologies I'm not (super) familiar with yet. I'm developing both the front and back-end of this
+            application. For the front-end I'm using TypeScript, React, Styled Components and Apollo GraphQL.`}
         </Paragraph>
         <Paragraph>
             {`The back-end is a Node (Express) server which exposes a GraphQL API to the front-end. This API uses
