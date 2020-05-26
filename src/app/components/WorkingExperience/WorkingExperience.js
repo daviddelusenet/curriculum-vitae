@@ -23,7 +23,7 @@ const WorkingExperience = () => (
                 {'Dexels'}
             </a>
             {` with the rebuild of their Club application with web technologies. I'm the tech lead on this project and
-            our team is using TypeScript, React, Redux and Styled Components`}
+            our team is using TypeScript, React, Redux and Styled Components.`}
         </Paragraph>
         <Paragraph>
             {`Before we started with the rebuild of the Club application we've first developed a React UI kit which is
