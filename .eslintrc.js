@@ -2,12 +2,12 @@ module.exports = {
     parser: 'babel-eslint',
     env: {
         browser: true,
-        es6: true
+        es6: true,
     },
     plugins: [
         'babel',
         'react',
-        'prettier'
+        'prettier',
     ],
     extends: [
         'airbnb',
@@ -23,7 +23,7 @@ module.exports = {
         'import/order': 0,
         'jsx-a11y/anchor-is-valid': [2, {
             components: ['Link'],
-            specialLink: ['to']
+            specialLink: ['to'],
         }],
         'jsx-a11y/media-has-caption': 0,
         'max-len': [2, {
