@@ -31,7 +31,6 @@
     },
     "homepage": "https://github.com/daviddelusenet/curriculum-vitae#readme",
     "dependencies": {
-        "@babel/polyfill": "^7.10.1",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",

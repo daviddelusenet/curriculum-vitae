@@ -6,7 +6,7 @@ const { resolve } = require('path');
 
 module.exports = () => ({
     entry: {
-        'curriculum-vitae': ['@babel/polyfill', resolve(__dirname, '../src/index.js')],
+        'curriculum-vitae': resolve(__dirname, '../src/index.js'),
     },
     module: {
         rules: [
