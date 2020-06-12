@@ -6,7 +6,7 @@ const { resolve } = require('path');
 
 module.exports = () => ({
     entry: {
-        'curriculum-vitae': resolve(__dirname, '../src/index.js'),
+        'curriculum-vitae': resolve(__dirname, '../src/index.tsx'),
     },
     module: {
         rules: [
@@ -16,7 +16,7 @@ module.exports = () => ({
             },
             {
                 exclude: /(node_modules)/,
-                test: /\.(js|tsx)$/,
+                test: /\.(js|ts|tsx)$/,
                 use: ['babel-loader'],
             },
         ],
