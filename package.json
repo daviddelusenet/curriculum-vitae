@@ -31,6 +31,8 @@
     },
     "homepage": "https://github.com/daviddelusenet/curriculum-vitae#readme",
     "dependencies": {
+        "@hot-loader/react-dom": "^16.13.0",
+        "core-js": "^3.6.5",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",

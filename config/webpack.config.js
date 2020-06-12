@@ -39,4 +39,9 @@ module.exports = () => ({
             template: resolve(__dirname, '../src/templates/index.html'),
         }),
     ],
+    resolve: {
+        alias: {
+            'react-dom': '@hot-loader/react-dom',
+        },
+    },
 });
