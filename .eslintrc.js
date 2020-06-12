@@ -76,8 +76,11 @@ module.exports = {
         ],
         'prettier/prettier': 2,
         'react/jsx-curly-brace-presence': 0,
-        'react/jsx-indent-props': [2, 4],
         'react/jsx-filename-extension': 0,
+        'react/jsx-indent-props': [2, 4],
+        'react/jsx-key': [2, {
+            checkFragmentShorthand: true,
+        }],
         'react/jsx-max-props-per-line': [2, {
             maximum: 3,
         }],
@@ -106,6 +109,7 @@ module.exports = {
             caseSensitive: true,
             natural: false,
         }],
+        'spaced-comment': [2, 'always'],
         'typescript-sort-keys/interface': 2,
         'typescript-sort-keys/string-enum': 2,
     },
