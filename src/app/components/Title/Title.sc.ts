@@ -1,10 +1,8 @@
 import media from 'styled-media-query';
-import PropTypes from 'prop-types';
-import React from 'react';
 import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
-const StyledTitle = styled.h3`
+export const StyledTitle = styled.h3`
     ${({ theme }) =>
         underline({
             backgroundColor: theme.primaryBackgroundColor,
@@ -21,10 +19,4 @@ const StyledTitle = styled.h3`
     `}
 `;
 
-const Title = ({ children }) => <StyledTitle>{children}</StyledTitle>;
-
-Title.propTypes = {
-    children: PropTypes.string.isRequired,
-};
-
-export default Title;
+export default StyledTitle;

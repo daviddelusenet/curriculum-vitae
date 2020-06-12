@@ -1,10 +1,8 @@
+import styled, { DefaultTheme } from 'styled-components';
 import media from 'styled-media-query';
-import PropTypes from 'prop-types';
-import React from 'react';
-import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
-const StyledParagraph = styled.p`
+export const StyledParagraph = styled.p`
     margin: 0 0 24px;
     line-height: 1.5;
     font-size: 18px;
@@ -22,7 +20,7 @@ const StyledParagraph = styled.p`
                 })}
 
             ${media.greaterThan('medium')`
-                ${({ theme }) =>
+                ${({ theme }: { theme: DefaultTheme }) =>
                     underline({
                         backgroundColor: theme.primaryBackgroundColor,
                         color: theme.primaryLinkColor,
@@ -37,10 +35,4 @@ const StyledParagraph = styled.p`
     `}
 `;
 
-const Paragraph = ({ children }) => <StyledParagraph>{children}</StyledParagraph>;
-
-Paragraph.propTypes = {
-    children: PropTypes.oneOfType([PropTypes.array, PropTypes.string]).isRequired,
-};
-
-export default Paragraph;
+export default StyledParagraph;

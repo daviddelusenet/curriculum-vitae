@@ -1,9 +1,9 @@
+import React, { FunctionComponent } from 'react';
 import Paragraph from '../Paragraph/Paragraph';
-import React from 'react';
 import Subtitle from '../Subtitle/Subtitle';
 import Title from '../Title/Title';
 
-const WorkingExperience = () => (
+const WorkingExperience: FunctionComponent = () => (
     <>
         <Title>{'Working experience'}</Title>
         <Subtitle date="August 2019 - present">

@@ -1,5 +1,8 @@
 module.exports = {
-    parser: 'babel-eslint',
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+        project: './tsconfig.json',
+    },
     env: {
         browser: true,
         es6: true,
@@ -7,11 +10,17 @@ module.exports = {
     plugins: [
         'babel',
         'react',
+        '@typescript-eslint',
+        'typescript-sort-keys',
         'prettier',
     ],
     extends: [
-        'airbnb',
+        'airbnb-typescript',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:import/typescript',
         'prettier',
+        'prettier/@typescript-eslint',
         'prettier/babel',
         'prettier/react',
     ],
@@ -87,12 +96,7 @@ module.exports = {
             shorthandLast: false,
         }],
         'react/no-danger': 0,
-        'react/sort-prop-types': [2, {
-            callbacksLast: false,
-            ignoreCase: false,
-            requiredFirst: false,
-            sortShapeProp: false,
-        }],
+        'react/prop-types': 0,
         'sort-imports': [2, {
             ignoreCase: true,
             ignoreMemberSort: false,
@@ -102,5 +106,7 @@ module.exports = {
             caseSensitive: true,
             natural: false,
         }],
+        'typescript-sort-keys/interface': 2,
+        'typescript-sort-keys/string-enum': 2,
     },
 };

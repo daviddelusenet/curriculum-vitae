@@ -1,8 +1,8 @@
+import React, { FunctionComponent } from 'react';
 import Paragraph from '../Paragraph/Paragraph';
-import React from 'react';
 import Title from '../Title/Title';
 
-const PersonalInterests = () => (
+const PersonalInterests: FunctionComponent = () => (
     <>
         <Title>{'Personal interests'}</Title>
         <Paragraph>

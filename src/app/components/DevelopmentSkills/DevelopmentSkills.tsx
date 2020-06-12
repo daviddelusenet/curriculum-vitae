@@ -1,7 +1,7 @@
+import React, { FunctionComponent } from 'react';
 import List from '../List/List';
 import ListItem from '../ListItem/ListItem';
 import Paragraph from '../Paragraph/Paragraph';
-import React from 'react';
 import Title from '../Title/Title';
 
 const currentTools = [
@@ -38,7 +38,7 @@ const previousTools = [
     'Grunt',
 ];
 
-const DevelopmentSkills = () => (
+const DevelopmentSkills: FunctionComponent = () => (
     <>
         <Title>{'Development skills'}</Title>
         <List>

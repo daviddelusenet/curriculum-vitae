@@ -11,10 +11,10 @@ import {
     Occupation,
     Wrapper,
 } from './DemographicInformation.sc';
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { ReactSVG } from 'react-svg';
 
-const DemographicInformation = () => (
+const DemographicInformation: FunctionComponent = () => (
     <Wrapper>
         <Name>{'David de Lusenet'}</Name>
         <Occupation>{'Front-end developer'}</Occupation>

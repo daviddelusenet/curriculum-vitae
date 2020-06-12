@@ -5,7 +5,7 @@ const themeLight = {
     primaryBackgroundColor: '#fafafa',
     primaryLinkColor: '#fA8320',
     primaryTextColor: '#000',
-    // Font-families
+    // Fonts
     primaryFontFamily: "'Open Sans', sans-serif",
     secondaryFontFamily: "'Source Serif Pro', serif",
 };

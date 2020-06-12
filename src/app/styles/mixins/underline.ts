@@ -1,7 +1,7 @@
 // This mixin is based on https://eager.io/blog/smarter-link-underlines/
-import { css } from 'styled-components';
+import { css, FlattenSimpleInterpolation } from 'styled-components';
 
-export const textShadowToCropUnderline = (backgroundColor) => css`
+export const textShadowToCropUnderline = (backgroundColor: string): FlattenSimpleInterpolation => css`
     text-shadow: 0 0.03em ${backgroundColor}, 0 -0.03em ${backgroundColor}, 0.03em 0 ${backgroundColor},
         -0.03em 0 ${backgroundColor}, 0.06em 0 ${backgroundColor}, -0.06em 0 ${backgroundColor},
         0.09em 0 ${backgroundColor}, -0.09em 0 ${backgroundColor}, 0.12em 0 ${backgroundColor},
@@ -9,11 +9,21 @@ export const textShadowToCropUnderline = (backgroundColor) => css`
         0.18em 0 ${backgroundColor}, -0.18em 0 ${backgroundColor};
 `;
 
-export const animateUnderline = () => css`
+export const animateUnderline = (): FlattenSimpleInterpolation => css`
     background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
 `;
 
-export default ({ animate = false, backgroundColor, color, underlinePosition = '88%' } = {}) => css`
+export default ({
+    animate = false,
+    backgroundColor,
+    color,
+    underlinePosition = '88%',
+}: {
+    animate?: boolean;
+    backgroundColor: string;
+    color: string;
+    underlinePosition?: string;
+}): FlattenSimpleInterpolation => css`
     ${textShadowToCropUnderline(backgroundColor)}
     background-image: linear-gradient(${backgroundColor}, ${backgroundColor}),
         linear-gradient(${backgroundColor}, ${backgroundColor}),
