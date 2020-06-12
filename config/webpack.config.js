@@ -16,7 +16,7 @@ module.exports = () => ({
             },
             {
                 exclude: /(node_modules)/,
-                test: /\.js$/,
+                test: /\.(js|tsx)$/,
                 use: ['babel-loader'],
             },
         ],
@@ -43,5 +43,6 @@ module.exports = () => ({
         alias: {
             'react-dom': '@hot-loader/react-dom',
         },
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
 });

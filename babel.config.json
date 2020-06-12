@@ -1,4 +1,8 @@
 {
+    "plugins": [
+        "react-hot-loader/babel",
+        "babel-plugin-styled-components"
+    ],
     "presets": [
         [
             "@babel/preset-env",
@@ -7,16 +11,7 @@
                 "useBuiltIns": "usage"
             }
         ],
-        "@babel/preset-react"
-    ],
-    "plugins": [
-        "babel-plugin-styled-components"
-    ],
-    "env": {
-        "dev": {
-            "plugins": [
-                "react-hot-loader/babel"
-            ]
-        }
-    }
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+    ]
 }
