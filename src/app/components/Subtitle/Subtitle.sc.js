@@ -2,7 +2,6 @@ import media from 'styled-media-query';
 import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
-/* eslint-disable indent */
 export const StyledSubtitle = styled.h4`
     margin: 0 0 4px;
     line-height: 1.5;
@@ -34,6 +33,5 @@ export const StyledSubtitle = styled.h4`
         font-size: 18px;
     `}
 `;
-/* eslint-enable */
 
 export default StyledSubtitle;

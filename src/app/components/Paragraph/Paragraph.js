@@ -4,7 +4,6 @@ import React from 'react';
 import styled from 'styled-components';
 import underline from '../../styles/mixins/underline';
 
-/* eslint-disable indent */
 const StyledParagraph = styled.p`
     margin: 0 0 24px;
     line-height: 1.5;
@@ -37,7 +36,6 @@ const StyledParagraph = styled.p`
         font-size: 24px;
     `}
 `;
-/* eslint-enable */
 
 const Paragraph = ({ children }) => <StyledParagraph>{children}</StyledParagraph>;
 
