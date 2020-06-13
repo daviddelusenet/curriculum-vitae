@@ -37,7 +37,7 @@
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-hot-loader": "^4.12.21",
-        "react-svg": "^11.0.25",
+        "react-svg": "^11.0.26",
         "styled-components": "^5.1.1",
         "styled-media-query": "^2.1.2",
         "styled-reset-advanced": "^1.0.3"
