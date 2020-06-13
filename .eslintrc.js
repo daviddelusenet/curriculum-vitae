@@ -35,11 +35,6 @@ module.exports = {
             specialLink: ['to'],
         }],
         'jsx-a11y/media-has-caption': 0,
-        'max-len': [2, {
-            code: 120,
-            ignoreTemplateLiterals: false,
-            tabWidth: 4,
-        }],
         'no-multiple-empty-lines': [2, {
             max: 1,
             maxBOF: 0,
@@ -80,9 +75,6 @@ module.exports = {
         'react/jsx-indent-props': [2, 4],
         'react/jsx-key': [2, {
             checkFragmentShorthand: true,
-        }],
-        'react/jsx-max-props-per-line': [2, {
-            maximum: 3,
         }],
         'react/jsx-no-literals': [2, {
             noStrings: false,
