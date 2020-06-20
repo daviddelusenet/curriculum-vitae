@@ -26,7 +26,7 @@ const WorkingExperience: FunctionComponent = () => (
             our team is using TypeScript, React, Redux and Styled Components.`}
         </Paragraph>
         <Paragraph>
-            {`Before we started with the rebuild of the Club application we've first developed a React UI kit which is
+            {`Before we started with the rebuild of the Club application we first developed a React UI kit which we
             published as a `}
             <a href="https://www.npmjs.com/package/dexels-ui-kit" rel="noopener noreferrer" target="_blank">
                 {'NPM package'}
@@ -44,7 +44,7 @@ const WorkingExperience: FunctionComponent = () => (
             application. For the front-end I'm using TypeScript, React, Styled Components and Apollo GraphQL.`}
         </Paragraph>
         <Paragraph>
-            {`The back-end is a Node (Express) server which exposes a GraphQL API to the front-end. This API uses
+            {`The back-end is a Node.js (Express) server which exposes a GraphQL API to the front-end. This API uses
             Sequelize to communicate with a Postgres database. Eventually this entire project will also be containerized
             using Docker.`}
         </Paragraph>
@@ -131,8 +131,8 @@ const WorkingExperience: FunctionComponent = () => (
             <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
                 {'portfolio website'}
             </a>
-            {`. I did a lot of work on this project with React and GSAP. The website launched after I left and has won
-            multiple acclaimed design awards since.`}
+            {`. I did a lot of work on this project with React and GSAP. Since the website went live it has won multiple
+            acclaimed design awards.`}
         </Paragraph>
         <Paragraph>
             {`Besides the projects described above I also did some work for various other client like the KNVB, Het

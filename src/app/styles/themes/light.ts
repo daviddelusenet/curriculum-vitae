@@ -1,4 +1,3 @@
-// Color names by http://chir.ag/projects/name-that-color/
 /* eslint-disable sort-keys */
 const themeLight = {
     // Colors

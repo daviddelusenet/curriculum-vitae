@@ -8,6 +8,7 @@ const currentTools = [
     'HTML5',
     'CSS3/SASS/React CSS Modules',
     'TypeScript/JavaScript ES6',
+    'NPM/Yarn',
     'React',
     'Redux',
     'Node.js/Express',
@@ -22,6 +23,7 @@ const currentTools = [
     'ESLint',
     'Stylelint',
     'Prettier',
+    'CircleCI',
 ];
 
 const previousTools = [
@@ -52,6 +54,7 @@ const DevelopmentSkills: FunctionComponent = () => (
                 <ListItem key={tool}>{tool}</ListItem>
             ))}
         </List>
+        <Paragraph>{'My preferred editor of choice is Visual Studio Code.'}</Paragraph>
     </>
 );
 

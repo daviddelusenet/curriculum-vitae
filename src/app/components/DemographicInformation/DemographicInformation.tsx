@@ -53,12 +53,12 @@ const DemographicInformation: FunctionComponent = () => (
                     >
                         <ReactSVG src="/assets/images/linkedin.svg" />
                     </a>
-                    <a href="mailto:david@lusenet.nl" title="Send me an email to say hi">
+                    <a href="mailto:david@lusenet.nl" title="Send me an email">
                         <ReactSVG src="/assets/images/mail.svg" />
                     </a>
-                    <a href="tel:+31650469600" title="You used to call me on my cellphone">
+                    {/* <a href="tel:+31650469600" title="You used to call me on my cellphone">
                         <ReactSVG src="/assets/images/phone.svg" />
-                    </a>
+                    </a> */}
                 </Icons>
             </InformationWrapper>
             <AvatarWrapper>
