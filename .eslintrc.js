@@ -79,6 +79,7 @@ module.exports = {
         'react/jsx-no-literals': [2, {
             noStrings: false,
         }],
+        'react/jsx-no-useless-fragment': 2,
         'react/jsx-sort-default-props': [2, {
             ignoreCase: false,
         }],
