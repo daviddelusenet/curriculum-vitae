@@ -14,8 +14,10 @@ const WorkingExperience: FunctionComponent = () => (
         </Subtitle>
         <Paragraph>
             {`Code d'Azur is a creative agency based in Amsterdam, Barcelona and Austin, Texas. Code d'Azur has a strong
-            digital DNA and roots in digital production. We create digital campaigns but also focus on services and products.`}
-            {`At Code d'Azur I'll be working for a lot of renowned clients like Philips, Polestar, KLM, ABN AMRO and many more.`}
+            digital DNA and roots in digital production. At Code d'Azur we create digital campaigns but also focus on services
+            and products.`}
+            {`Together with my colleageus at Code d'Azur I'll be working for a lot of renowned clients like Philips, Polestar,
+            KLM, ABN AMRO and many more.`}
         </Paragraph>
         <Subtitle date="August 2019 -  July 2020">
             {'front-end developer consultant at '}
@@ -29,12 +31,12 @@ const WorkingExperience: FunctionComponent = () => (
             the start of 2019 and I'm actually the first developer they hired.`}
         </Paragraph>
         <Paragraph>
-            {"I'm currently on my first assignment as a consultant: I'm helping "}
+            {'I only did one assignment as a consultant: I helped '}
             <a href="http://www.dexels.com/" rel="noopener noreferrer" target="_blank">
                 {'Dexels'}
             </a>
-            {` with the rebuild of their Club application with web technologies. I'm the tech lead on this project and
-            our team is using TypeScript, React, Redux and Styled Components.`}
+            {` with the rebuild of their Club application with web technologies. I was the tech lead on this project and
+            our team was using TypeScript, React, Redux and Styled Components.`}
         </Paragraph>
         <Paragraph>
             {`Before we started with the rebuild of the Club application we first developed a React UI kit which we
@@ -45,19 +47,18 @@ const WorkingExperience: FunctionComponent = () => (
             {'.'}
         </Paragraph>
         <Paragraph>
-            {`When I'm not on an assignment or have any spare time I'm working on an internal project for Cygni called
-            scorekeeper. This is an application where employees can keep track of the results of the numerous games they
+            {`When I was not on an assignment or had any spare time I was working on an internal project for Cygni called
+            Scorekeeper. This is an application where employees can keep track of the results of the numerous games they
             play versus each other.`}
         </Paragraph>
         <Paragraph>
-            {`One of the goals of this project is to teach myself new things. This means I'm trying to primarily use
-            technologies I'm not (super) familiar with yet. I'm developing both the front and back-end of this
-            application. For the front-end I'm using TypeScript, React, Styled Components and Apollo GraphQL.`}
+            {`One of the goals of this project was to teach myself new things. This means I was trying to primarily use
+            technologies I was not (super) familiar with yet. I developed both the front and back-end of this
+            application. For the front-end I was using TypeScript, React, Styled Components and Apollo GraphQL.`}
         </Paragraph>
         <Paragraph>
             {`The back-end is a Node.js (Express) server which exposes a GraphQL API to the front-end. This API uses
-            Sequelize to communicate with a Postgres database. Eventually this entire project will also be containerized
-            using Docker.`}
+            Sequelize to communicate with a Postgres database.`}
         </Paragraph>
         <Subtitle date="January 2018 - August 2019">
             {'front-end developer at '}
