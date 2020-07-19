@@ -30,9 +30,14 @@ const Introduction: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {`I worked at Random for about one and half years. While it was a really fun place to work, I noticed that I
-            sometimes was missing a challenge in my day-to-day operations. I came to the conclusion that it would be
-            hard to find consistent technological challenge while working in the creative industry. This made me decide
-            to persue a job in the consultancy sector instead and I joined an awesome company called Cygni.`}
+            sometimes was missing a challenge in my day-to-day operations. Since all my jobs so far had been in the creative
+            industry I wanted to try something else. This made me decide to persue a job in the consultancy sector instead
+            and I joined an awesome company called Cygni.`}
+        </Paragraph>
+        <Paragraph>
+            {`At Cygni I was working as a consultant front-end developer and I did an assignment at a company called Sportlink,
+            which went really well. However, I was missing the creativity and comradery most creative digital agencies had to offer.
+            Because of this I left Cygni and went back to the creative sector: I joined Code d'Azur as a senior front-end developer.`}
         </Paragraph>
     </>
 );

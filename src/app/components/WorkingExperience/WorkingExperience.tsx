@@ -6,15 +6,26 @@ import Title from '../Title/Title';
 const WorkingExperience: FunctionComponent = () => (
     <>
         <Title>{'Working experience'}</Title>
-        <Subtitle date="August 2019 - present">
-            {'front-end developer consultant at '}
-            <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
-                {'Cygni Netherlands'}
+        <Subtitle date="July 2020 - present">
+            {'senior front-end developer at '}
+            <a href="https://codedazur.com/" rel="noopener noreferrer" target="_blank">
+                {`Code d'Azur`}
             </a>
         </Subtitle>
         <Paragraph>
-            {`Cygni Netherlands is a consultant company based in Amsterdam and is the sister company of Cygni Sweden.
-            Cygni decided to expand to the Dutch market due to its success in Sweden. Cygni Netherlands was founded at
+            {`Code d'Azur is a creative agency based in Amsterdam, Barcelona and Austin, Texas. Code d'Azur has a strong
+            digital DNA and roots in digital production. We create digital campaigns but also focus on services and products.`}
+            {`At Code d'Azur I'll be working for a lot of renowned clients like Philips, Polestar, KLM, ABN AMRO and many more.`}
+        </Paragraph>
+        <Subtitle date="August 2019 -  July 2020">
+            {'front-end developer consultant at '}
+            <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
+                {'Cygni NL'}
+            </a>
+        </Subtitle>
+        <Paragraph>
+            {`Cygni NL is a consultant company based in Amsterdam and is the sister company of Cygni Sweden.
+            Cygni decided to expand to the Dutch market due to its success in Sweden. Cygni NL was founded at
             the start of 2019 and I'm actually the first developer they hired.`}
         </Paragraph>
         <Paragraph>
