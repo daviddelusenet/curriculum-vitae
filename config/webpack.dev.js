@@ -1,6 +1,6 @@
-const { resolve } = require('path');
-const merge = require('webpack-merge');
 const Jarvis = require('webpack-jarvis');
+const { merge } = require('webpack-merge');
+const { resolve } = require('path');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 
