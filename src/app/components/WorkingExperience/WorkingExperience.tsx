@@ -16,6 +16,8 @@ const WorkingExperience: FunctionComponent = () => (
             {`Code d'Azur is a creative agency based in Amsterdam, Barcelona and Austin, Texas. Code d'Azur has a strong
             digital DNA and roots in digital production. At Code d'Azur we create digital campaigns but also focus on services
             and products.`}
+        </Paragraph>
+        <Paragraph>
             {`Together with my colleageus at Code d'Azur I'll be working for a lot of renowned clients like Philips, Polestar,
             KLM, ABN AMRO and many more.`}
         </Paragraph>
