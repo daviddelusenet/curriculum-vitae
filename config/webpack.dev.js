@@ -1,7 +1,5 @@
-const Jarvis = require('webpack-jarvis');
 const { merge } = require('webpack-merge');
 const { resolve } = require('path');
-const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 
 module.exports = () =>
@@ -14,10 +12,4 @@ module.exports = () =>
             publicPath: '/',
         },
         devtool: 'inline-source-map',
-        plugins: [
-            new webpack.NamedModulesPlugin(),
-            new Jarvis({
-                port: 1337,
-            }),
-        ],
     });
