@@ -31,14 +31,12 @@ export default ({
     background-position: 0 90%, 100% 90%, 0 ${underlinePosition};
     background-repeat: no-repeat, no-repeat, no-repeat;
 
-    ${
-        animate
-            ? css`
-                  transition: background-size 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                  background-size: 0.05em 1px, 0.05em 1px, 0 1px;
-              `
-            : css`
-                  background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
-              `
-    }
+    ${animate
+        ? css`
+              transition: background-size 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+              background-size: 0.05em 1px, 0.05em 1px, 0 1px;
+          `
+        : css`
+              background-size: 0.05em 1px, 0.05em 1px, 100% 1px;
+          `}
 `;
