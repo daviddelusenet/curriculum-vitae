@@ -15,11 +15,13 @@ export default createGlobalStyle`
 
     body {
         font-family: ${({ theme }) => theme.primaryFontFamily};
+        font-size: 16px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
 
     a {
+        outline: none;
         text-decoration: none;
         color: ${({ theme }) => theme.primaryTextColor};
     }

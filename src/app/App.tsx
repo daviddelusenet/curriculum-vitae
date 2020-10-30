@@ -7,16 +7,17 @@ import Introduction from './components/layouts/Introduction/Introduction';
 import media from 'styled-media-query';
 import PersonalInterests from './components/layouts/PersonalInterests/PersonalInterests';
 import React from 'react';
+import rem from './styles/mixins/rem';
 import themeLight from './styles/themes/light';
 import WorkingExperience from './components/layouts/WorkingExperience/WorkingExperience';
 
 const Wrapper = styled.div`
     margin: 0 auto;
-    padding: 0 24px 40px;
-    max-width: 760px;
+    padding: 0 ${rem(24)} ${rem(40)};
+    max-width: ${rem(760)};
 
     ${media.greaterThan('medium')`
-        padding: 0 32px 80px;
+        padding: 0 ${rem(32)} ${rem(80)};
     `}
 `;
 

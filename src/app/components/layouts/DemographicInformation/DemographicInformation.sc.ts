@@ -1,30 +1,31 @@
 import media from 'styled-media-query';
+import rem from '../../../styles/mixins/rem';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    padding: 60px 0 40px;
+    padding: ${rem(60)} 0 ${rem(40)};
 
     ${media.greaterThan('medium')`
-        padding: 80px 0 64px;
+        padding: ${rem(80)} 0 ${rem(64)};
     `}
 `;
 
 export const Name = styled.h1`
     font-family: ${({ theme }) => theme.secondaryFontFamily};
-    font-size: 40px;
+    font-size: ${rem(40)};
     font-weight: 700;
 
     ${media.greaterThan('medium')`
-        font-size: 64px;
+        font-size: ${rem(64)};
     `}
 `;
 
 export const Occupation = styled.h2`
-    margin: 0 0 24px;
-    font-size: 20px;
+    margin: 0 0 ${rem(24)};
+    font-size: ${rem(20)};
 
     ${media.greaterThan('medium')`
-        font-size: 32px;
+        font-size: ${rem(32)};
     `}
 `;
 
@@ -41,7 +42,7 @@ export const InformationWrapper = styled.div`
     ${media.greaterThan('medium')`
         order: 1;
         flex: 0 0 auto;
-        width: 496px;
+        width: ${rem(496)};
     `}
 `;
 
@@ -49,20 +50,20 @@ export const InformationRow = styled.div`
     display: flex;
     flex-wrap: nowrap;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: ${rem(16)};
 
     ${media.greaterThan('medium')`
-        font-size: 20px;
+        font-size: ${rem(20)};
     `}
 `;
 
 export const InformationKey = styled.p`
     flex: 0 0 auto;
     padding: 0 20px 0 0;
-    width: 180px;
+    width: ${rem(180)};
 
     ${media.greaterThan('medium')`
-        width: 240px;
+        width: ${rem(240)};
     `}
 `;
 
@@ -75,14 +76,14 @@ export const InformationValue = styled.p`
 export const Icons = styled.div`
     display: flex;
     flex-wrap: nowrap;
-    margin: 24px 0 0;
+    margin: ${rem(24)} 0 0;
 
     a {
         display: block;
         flex: 0 0 auto;
-        margin: 0 16px 0 0;
-        width: 32px;
-        height: 32px;
+        margin: 0 ${rem(16)} 0 0;
+        width: ${rem(32)};
+        height: ${rem(32)};
 
         &:hover {
             color: ${({ theme }) => theme.primaryLinkColor};
@@ -96,21 +97,21 @@ export const Icons = styled.div`
     svg {
         display: block;
         transition: color 200ms ease;
-        width: 32px;
-        height: 32px;
+        width: ${rem(32)};
+        height: ${rem(32)};
     }
 `;
 
 export const AvatarWrapper = styled.figure`
     flex: 0 0 auto;
     order: 1;
-    margin: 0 0 16px;
-    width: 160px;
+    margin: 0 0 ${rem(16)};
+    width: ${rem(160)};
 
     ${media.greaterThan('medium')`
         order: 2;
         margin: 0;
-        width: 200px;
+        width: ${rem(200)};
     `}
 `;
 

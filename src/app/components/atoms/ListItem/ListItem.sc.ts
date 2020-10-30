@@ -1,32 +1,33 @@
 import media from 'styled-media-query';
+import rem from '../../../styles/mixins/rem';
 import styled from 'styled-components';
 
 export const StyledListItem = styled.li`
     position: relative;
-    padding: 0 0 0 16px;
+    padding: 0 0 0 ${rem(16)};
     line-height: 1.5;
-    font-size: 18px;
+    font-size: ${rem(18)};
     font-weight: 300;
 
     ${media.greaterThan('medium')`
-        padding: 0 0 0 24px;
-        font-size: 24px;
+        padding: 0 0 0 ${rem(24)};
+        font-size: ${rem(24)};
     `}
 
     &::after,
     &::before {
         display: block;
         position: absolute;
-        top: 13px;
+        top: ${rem(13)};
         left: 0;
         background-color: ${({ theme }) => theme.primaryTextColor};
-        width: 8px;
-        height: 1px;
+        width: ${rem(8)};
+        height: ${rem(1)};
         content: '';
 
         ${media.greaterThan('medium')`
-            top: 18px;
-            width: 12px;
+            top: ${rem(18)};
+            width: ${rem(12)};
         `}
     }
 

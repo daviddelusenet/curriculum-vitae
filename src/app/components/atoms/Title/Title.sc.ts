@@ -1,4 +1,5 @@
 import media from 'styled-media-query';
+import rem from '../../../styles/mixins/rem';
 import styled from 'styled-components';
 import underline from '../../../styles/mixins/underline';
 
@@ -9,13 +10,13 @@ export const StyledTitle = styled.h3`
             color: theme.primaryTextColor,
             underlinePosition: '92%',
         })}
-    margin: 0 0 16px;
+    margin: 0 0 ${rem(16)};
     font-family: ${({ theme }) => theme.secondaryFontFamily};
-    font-size: 28px;
+    font-size: ${rem(28)};
     font-weight: 700;
 
     ${media.greaterThan('medium')`
-        font-size: 40px;
+        font-size: ${rem(40)};
     `}
 `;
 

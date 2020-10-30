@@ -23,10 +23,7 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Subtitle date="August 2019 -  July 2020">
             {'front-end developer consultant at '}
-            <ExternalLink href="https://knit.kvadrat.dk/">{'Knit! Kvadrat'}</ExternalLink>
-            <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
-                {'Cygni NL'}
-            </a>
+            <ExternalLink href="https://cygnigroup.com/nl/">{'Cygni NL'}</ExternalLink>
         </Subtitle>
         <Paragraph>
             {`Cygni NL is a consultant company based in Amsterdam and is the sister company of Cygni Sweden.
@@ -42,10 +39,7 @@ const WorkingExperience: FunctionComponent = () => (
         <Paragraph>
             {`Before we started with the rebuild of the Club application we first developed a React UI kit which we
             published as a `}
-            <ExternalLink href="https://knit.kvadrat.dk/">{'Knit! Kvadrat'}</ExternalLink>
-            <a href="https://www.npmjs.com/package/dexels-ui-kit" rel="noopener noreferrer" target="_blank">
-                {'NPM package'}
-            </a>
+            <ExternalLink href="https://www.npmjs.com/package/dexels-ui-kit">{'NPM package'}</ExternalLink>
             {'.'}
         </Paragraph>
         <Paragraph>

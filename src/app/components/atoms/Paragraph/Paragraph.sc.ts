@@ -1,11 +1,12 @@
 import styled, { DefaultTheme } from 'styled-components';
 import media from 'styled-media-query';
+import rem from '../../../styles/mixins/rem';
 import underline from '../../../styles/mixins/underline';
 
 export const StyledParagraph = styled.p`
-    margin: 0 0 24px;
+    margin: 0 0 ${rem(24)};
     line-height: 1.5;
-    font-size: 18px;
+    font-size: ${rem(18)};
     font-weight: 300;
 
     a {
@@ -30,8 +31,8 @@ export const StyledParagraph = styled.p`
     }
 
     ${media.greaterThan('medium')`
-        margin: 0 0 40px;
-        font-size: 24px;
+        margin: 0 0 ${rem(40)};
+        font-size: ${rem(24)};
     `}
 `;
 
