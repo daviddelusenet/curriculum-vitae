@@ -12,6 +12,7 @@ import {
     Wrapper,
 } from './DemographicInformation.sc';
 import React, { FunctionComponent } from 'react';
+import ExternalLink from '../atoms/ExternalLink/ExternalLink';
 import { ReactSVG } from 'react-svg';
 
 const DemographicInformation: FunctionComponent = () => (
@@ -37,28 +38,21 @@ const DemographicInformation: FunctionComponent = () => (
                     <InformationValue>{'B'}</InformationValue>
                 </InformationRow>
                 <Icons>
-                    <a
-                        href="https://github.com/daviddelusenet"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        title="Check out my code"
-                    >
+                    <ExternalLink href="https://github.com/daviddelusenet" title="Check out my code">
                         <ReactSVG src="/assets/images/github.svg" />
-                    </a>
-                    <a
+                    </ExternalLink>
+                    <ExternalLink
                         href="https://www.linkedin.com/in/david-de-lusenet-31b838111/"
-                        rel="noopener noreferrer"
-                        target="_blank"
                         title="Connect with me"
                     >
                         <ReactSVG src="/assets/images/linkedin.svg" />
-                    </a>
-                    <a href="mailto:david@lusenet.nl" title="Send me an email">
+                    </ExternalLink>
+                    <ExternalLink href="mailto:david@lusenet.nl" target="_self" title="Send me an email">
                         <ReactSVG src="/assets/images/mail.svg" />
-                    </a>
-                    {/* <a href="tel:+31650469600" title="You used to call me on my cellphone">
+                    </ExternalLink>
+                    {/* <ExternalLink href="tel:+31650469600" title="You used to call me on my cellphone">
                         <ReactSVG src="/assets/images/phone.svg" />
-                    </a> */}
+                    </ExternalLink> */}
                 </Icons>
             </InformationWrapper>
             <AvatarWrapper>

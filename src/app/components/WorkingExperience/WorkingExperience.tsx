@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react';
+import ExternalLink from '../atoms/ExternalLink/ExternalLink';
 import Paragraph from '../Paragraph/Paragraph';
 import Subtitle from '../Subtitle/Subtitle';
 import Title from '../Title/Title';
@@ -8,21 +9,21 @@ const WorkingExperience: FunctionComponent = () => (
         <Title>{'Working experience'}</Title>
         <Subtitle date="July 2020 - present">
             {'senior front-end developer at '}
-            <a href="https://codedazur.com/" rel="noopener noreferrer" target="_blank">
-                {`Code d'Azur`}
-            </a>
+            <ExternalLink href="https://codedazur.com/">{`Code d'Azur`}</ExternalLink>
         </Subtitle>
         <Paragraph>
-            {`Code d'Azur is a creative agency based in Amsterdam, Barcelona and Austin, Texas. Code d'Azur has a strong
-            digital DNA and roots in digital production. At Code d'Azur we create digital campaigns but also focus on services
-            and products.`}
+            {`Code d'Azur is a digital brand and experience company with offices in Amsterdam, Barcelona, Dubai and Austin, Texas.
+            Code d'Azur specializes itself in consulting & transformation, platforms, products & services, plus content & campaigns that help
+            our clients stand out from the crowd and fit into their customers’ lives.`}
         </Paragraph>
         <Paragraph>
-            {`Together with my colleageus at Code d'Azur I'll be working for a lot of renowned clients like Philips, Polestar,
-            KLM, ABN AMRO and many more.`}
+            {`At Code d'Azur I already worked on multiple projects: our new portfolio website, `}
+            <ExternalLink href="https://knit.kvadrat.dk/">{'Knit! Kvadrat'}</ExternalLink>
+            {` and currently I'm working for one of our biggest clients, Polestar.`}
         </Paragraph>
         <Subtitle date="August 2019 -  July 2020">
             {'front-end developer consultant at '}
+            <ExternalLink href="https://knit.kvadrat.dk/">{'Knit! Kvadrat'}</ExternalLink>
             <a href="https://cygnigroup.com/nl/" rel="noopener noreferrer" target="_blank">
                 {'Cygni NL'}
             </a>
@@ -34,15 +35,14 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {'I only did one assignment as a consultant: I helped '}
-            <a href="http://www.dexels.com/" rel="noopener noreferrer" target="_blank">
-                {'Dexels'}
-            </a>
+            <ExternalLink href="http://www.dexels.com/">{'Dexels'}</ExternalLink>
             {` with the rebuild of their Club application with web technologies. I was the tech lead on this project and
             our team was using TypeScript, React, Redux and Styled Components.`}
         </Paragraph>
         <Paragraph>
             {`Before we started with the rebuild of the Club application we first developed a React UI kit which we
             published as a `}
+            <ExternalLink href="https://knit.kvadrat.dk/">{'Knit! Kvadrat'}</ExternalLink>
             <a href="https://www.npmjs.com/package/dexels-ui-kit" rel="noopener noreferrer" target="_blank">
                 {'NPM package'}
             </a>
@@ -64,9 +64,7 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Subtitle date="January 2018 - August 2019">
             {'front-end developer at '}
-            <a href="https://random.studio/" rel="noopener noreferrer" target="_blank">
-                {'Random Studio'}
-            </a>
+            <ExternalLink href="https://random.studio/">{'Random Studio'}</ExternalLink>
         </Subtitle>
         <Paragraph>
             {`Random is an independent strategy and design studio which blurs the boundaries between art, design and
@@ -80,9 +78,7 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {'The first project I did at Random was the rebuild of the Video Wall PVH uses in their '}
-            <a href="https://www.youtube.com/watch?v=X3fPWN-nt4o" rel="noopener noreferrer" target="_blank">
-                {'Digital Showroom'}
-            </a>
+            <ExternalLink href="https://www.youtube.com/watch?v=X3fPWN-nt4o">{'Digital Showroom'}</ExternalLink>
             {`. The Video Wall was originally built in C and was therefore difficult to maintain. I rebuilt the Video
             Wall with web technologies like React and Styled Components. I also built a Node server using Express to
             communicate between the Video Wall and the Touch Table.`}
@@ -95,16 +91,9 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {'The last year of my time at Random I spent on their biggest project, the '}
-            <a
-                href={
-                    'https://fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-' +
-                    'amsterdam-store/2018120730514'
-                }
-                rel="noopener noreferrer"
-                target="_blank"
-            >
+            <ExternalLink href="https://fashionunited.com/news/retail/the-store-of-the-future-inside-tommy-hilfiger-s-amsterdam-store/2018120730514">
                 {'Store of the Future'}
-            </a>
+            </ExternalLink>
             {` they’re developing for PVH. I was the lead developer on multiple sub-projects of that project. For
             example, I've rebuilt the entire product detail page and catalog browser. This project is built with React,
             CSS Modules and Redux.`}
@@ -113,9 +102,7 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Subtitle date="February 2016 - January 2018">
             {'(intern) front-end developer at '}
-            <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
-                {'Momkai'}
-            </a>
+            <ExternalLink href="https://momkai.com">{'Momkai'}</ExternalLink>
         </Subtitle>
         <Paragraph>
             {`I began working at Momkai at the start of my graduation internship. During this internship, I mainly
@@ -127,24 +114,17 @@ const WorkingExperience: FunctionComponent = () => (
             this configurator, you can do simple configuration changes to your selected bike. This configurator is
             built using Backbone.js and vanilla JavaScript and the styling is done with SCSS. I also worked on several
             other components of the `}
-            <a href="https://vanmoof.com" rel="noopener noreferrer" target="_blank">
-                {'VanMoof website'}
-            </a>
+            <ExternalLink href="https://vanmoof.com">{'VanMoof website'}</ExternalLink>
             {'.'}
         </Paragraph>
         <Paragraph>
-            {'My favorite project I worked on at Momkai is the '}
-            <a href="https://masterdigitaldesign.com/why-apply" rel="noopener noreferrer" target="_blank">
-                {'Master Digital Design project'}
-            </a>
-            {`. This project contains a lot of SVG animations and really pushes the limits of responsive design. I
-            didn’t use any library or framework for this project, everything is just pure vanilla JavaScript.`}
+            {`My favorite project I worked on at Momkai is the Master Digital Design project. This project contains a
+            lot of SVG animations and really pushes the limits of responsive design. I didn’t use any library or
+            framework for this project, everything is just pure vanilla JavaScript.`}
         </Paragraph>
         <Paragraph>
             {'The last project I worked on before I left Momkai is their '}
-            <a href="https://momkai.com/" rel="noopener noreferrer" target="_blank">
-                {'portfolio website'}
-            </a>
+            <ExternalLink href="https://momkai.com">{'portfolio website'}</ExternalLink>
             {`. I did a lot of work on this project with React and GSAP. Since the website went live it has won multiple
             acclaimed design awards.`}
         </Paragraph>
@@ -154,9 +134,7 @@ const WorkingExperience: FunctionComponent = () => (
         </Paragraph>
         <Subtitle date="March 2012 - January 2016">
             {'(internship) front-end developer at '}
-            <a href="https://atabix.com/" rel="noopener noreferrer" target="_blank">
-                {'Atabix Solutions'}
-            </a>
+            <ExternalLink href="https://atabix.com">{'Atabix Solutions'}</ExternalLink>
         </Subtitle>
         <Paragraph>
             {`I started this job as an intern as well. After my internship ended, both parties were so excited about the
