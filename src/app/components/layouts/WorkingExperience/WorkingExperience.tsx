@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react';
-import ExternalLink from '../atoms/ExternalLink/ExternalLink';
-import Paragraph from '../Paragraph/Paragraph';
-import Subtitle from '../Subtitle/Subtitle';
-import Title from '../Title/Title';
+import ExternalLink from '../../atoms/ExternalLink/ExternalLink';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Subtitle from '../../atoms/Subtitle/Subtitle';
+import Title from '../../atoms/Title/Title';
 
 const WorkingExperience: FunctionComponent = () => (
     <>

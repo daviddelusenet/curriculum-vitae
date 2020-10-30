@@ -12,7 +12,7 @@ import {
     Wrapper,
 } from './DemographicInformation.sc';
 import React, { FunctionComponent } from 'react';
-import ExternalLink from '../atoms/ExternalLink/ExternalLink';
+import ExternalLink from '../../atoms/ExternalLink/ExternalLink';
 import { ReactSVG } from 'react-svg';
 
 const DemographicInformation: FunctionComponent = () => (

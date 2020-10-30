@@ -1,6 +1,6 @@
 import styled, { DefaultTheme } from 'styled-components';
 import media from 'styled-media-query';
-import underline from '../../styles/mixins/underline';
+import underline from '../../../styles/mixins/underline';
 
 export const StyledParagraph = styled.p`
     margin: 0 0 24px;

@@ -1,8 +1,8 @@
 import React, { FunctionComponent } from 'react';
-import List from '../List/List';
-import ListItem from '../ListItem/ListItem';
-import Paragraph from '../Paragraph/Paragraph';
-import Title from '../Title/Title';
+import List from '../../atoms/List/List';
+import ListItem from '../../atoms/ListItem/ListItem';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Title from '../../atoms/Title/Title';
 
 const currentTools = [
     'HTML5',

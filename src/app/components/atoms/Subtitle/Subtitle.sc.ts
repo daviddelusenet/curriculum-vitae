@@ -1,6 +1,6 @@
 import media from 'styled-media-query';
 import styled from 'styled-components';
-import underline from '../../styles/mixins/underline';
+import underline from '../../../styles/mixins/underline';
 
 export const StyledSubtitle = styled.h4`
     margin: 0 0 4px;

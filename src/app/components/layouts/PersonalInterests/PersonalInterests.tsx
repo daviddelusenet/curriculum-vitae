@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import Paragraph from '../Paragraph/Paragraph';
-import Title from '../Title/Title';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Title from '../../atoms/Title/Title';
 
 const PersonalInterests: FunctionComponent = () => (
     <>

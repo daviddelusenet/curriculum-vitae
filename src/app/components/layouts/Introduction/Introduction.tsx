@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import Paragraph from '../Paragraph/Paragraph';
-import Title from '../Title/Title';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Title from '../../atoms/Title/Title';
 
 const Introduction: FunctionComponent = () => (
     <>
@@ -27,7 +27,7 @@ const Introduction: FunctionComponent = () => (
         <Paragraph>
             {`I worked at Random for about one and half years. While it was a really fun place to work, I noticed that I sometimes was missing
             a challenge in my day-to-day operations. Since all my jobs so far had been in the creative industry I wanted to try something else.
-            This made me decide to persue a job in the consultancy sector instead and I joined an awesome company called Cygni.`}
+            This made me decide to persue a job in the consultancy sector instead wand I joined an awesome company called Cygni.`}
         </Paragraph>
         <Paragraph>
             {`At Cygni I was working as a consultant front-end developer and I did one assignment at a company called Sportlink,

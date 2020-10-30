@@ -1,6 +1,6 @@
 import media from 'styled-media-query';
 import styled from 'styled-components';
-import underline from '../../styles/mixins/underline';
+import underline from '../../../styles/mixins/underline';
 
 export const StyledTitle = styled.h3`
     ${({ theme }) =>
