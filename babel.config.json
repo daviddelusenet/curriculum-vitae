@@ -1,8 +1,5 @@
 {
-    "plugins": [
-        "react-hot-loader/babel",
-        "babel-plugin-styled-components"
-    ],
+    "plugins": ["react-hot-loader/babel", "babel-plugin-styled-components"],
     "presets": [
         [
             "@babel/preset-env",
