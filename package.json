@@ -12,7 +12,8 @@
         "dist:analyze": "BABEL_ENV=prod webpack --config config/webpack.prod.js --mode production --env.analyze=true",
         "lint:all": "npm run lint:ts && npm run lint:css && npm run check-types",
         "lint:css": "stylelint './src/**/*'",
-        "lint:ts": "eslint './src/**/*'"
+        "lint:ts": "eslint './src/**/*'",
+        "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,mdx}\""
     },
     "repository": {
         "type": "git",

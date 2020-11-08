@@ -25,17 +25,22 @@ module.exports = {
         'function-comma-newline-after': 'always-multi-line',
         'function-comma-space-after': 'always-single-line',
         'function-comma-space-before': 'never',
-        'function-name-case': ['lower', {
-            ignoreFunctions: [
-            ],
-        }],
+        'function-name-case': [
+            'lower',
+            {
+                ignoreFunctions: [],
+            },
+        ],
         'function-parentheses-space-inside': 'never',
         'length-zero-no-unit': true,
         'max-empty-lines': 1,
         'prettier/prettier': true,
-        'rule-empty-line-before': ['always', {
-            except: ['after-single-line-comment', 'first-nested']
-        }],
+        'rule-empty-line-before': [
+            'always',
+            {
+                except: ['after-single-line-comment', 'first-nested'],
+            },
+        ],
         'selector-list-comma-newline-after': 'always',
         'selector-pseudo-class-parentheses-space-inside': 'never',
         'selector-pseudo-element-case': 'lower',
