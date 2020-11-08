@@ -11,6 +11,7 @@ const currentTools = [
     'NPM/Yarn',
     'React',
     'Redux',
+    'Gatsby',
     'Node.js/Express',
     'Apollo GraphQL',
     'Storybook',

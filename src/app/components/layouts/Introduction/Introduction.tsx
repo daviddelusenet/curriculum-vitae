@@ -12,7 +12,7 @@ const Introduction: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {`During my second year it was mandatory to do an intership and I got a job as an intern at a company called Atabix Solutions.
-            This would be the place where I would acquired most of my basic development skills. Back in 2012, Atabix was still a young but quickly
+            This would be the place where I would acquired most of my basic development skills. Back in 2012, Atabix was a young but quickly
             growing company. This gave me the opportunity to have a lot of responsibilities and to kickstart my career as a developer.`}
         </Paragraph>
         <Paragraph>
@@ -21,7 +21,7 @@ const Introduction: FunctionComponent = () => (
         </Paragraph>
         <Paragraph>
             {`At Momkai I started taking serious steps towards becoming an experienced developer. I (finally) stopped working with tools
-            like jQuery and started working on projects with React and Backbone.js. After two fun years, where I grew both personally and
+            like jQuery and started working on projects with Backbone.js and React. After two fun years, where I grew both personally and
             professionally, it was time for a change. I started looking for a new opportunity and ended up at a Random Studio.`}
         </Paragraph>
         <Paragraph>

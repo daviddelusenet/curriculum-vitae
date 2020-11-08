@@ -59,7 +59,7 @@ export const InformationRow = styled.div`
 
 export const InformationKey = styled.p`
     flex: 0 0 auto;
-    padding: 0 20px 0 0;
+    padding: 0 ${rem(20)} 0 0;
     width: ${rem(180)};
 
     ${media.greaterThan('medium')`
