@@ -4,11 +4,6 @@
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "eslint.probe": [
-        "javascript",
-        "typescript",
-        "typescriptreact",
-    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "typescript.validate.enable": true,
